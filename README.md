@@ -1,1 +1,3 @@
-readme test 1
+The development of the Sarshapa tool is designed to help model authors better protect their models or achieve commercial monetization needs. This tool adopts the form of a webui plugin to implement encryption and decryption, user account and key login, and other functions. However, model encryption and listing still require contacting me to operate, and it is not yet fully automated. My WeChat is AD_zoejohnny, and model authors in need can contact me. This plugin does not charge any fees. I hope to build a good model development ecosystem together with everyone.
+
+模芥Sarshapa工具的开发，是为了帮助模型作者可以更好的保护自己的模型，或者实现商业变现需求。本工具采用webui插件的形式，实现加解密、用户账号秘钥登录等功能。但是模型加密和上架，仍需联系我来操作，暂时还无法做到完全自动化。我的wx:AD_zoejohnny，如有需要的模型作者可以联系我，本插件不向模型作者收取任何费用。只希望可以和大家一起，共筑良好的模型发展生态。
