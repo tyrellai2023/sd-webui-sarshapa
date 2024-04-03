@@ -25,26 +25,36 @@ if __name__ != "__main__":
             super().__init__()
 
         def title(self):
-            return "ad3.0 tool"
+            return "模芥Sarshapa"
 
         def show(self, is_img2img):
             return scripts.AlwaysVisible
 
         def ui(self, is_img2img):
-            with gr.Blocks() as cryp:
-                gr.Markdown("模芥Sarshapa")
+            with gr.Accordion(f"模芥Sarshapa",open = False) as acc:
+                with gr.Blocks() as cryp:
+                    # uninstall_btn = gr.Button("卸载加密模块")
+                    # operation_output = gr.Textbox(label="操作结果")
 
-                install_btn = gr.Button("安装加密模块")
-                uninstall_btn = gr.Button("卸载加密模块")
-                operation_output = gr.Textbox(label="操作结果")
-
-                # 安装和卸载按钮的点击事件
-                install_btn.click(
-                    fn=install_encryption_module, outputs=operation_output
-                )
-                uninstall_btn.click(
-                    fn=uninstall_encryption_module, outputs=operation_output
-                )
+                    # # 安装和卸载按钮的点击事件
+                    # install_btn.click(
+                    #     fn=install_encryption_module, outputs=operation_output
+                    # )
+                    # uninstall_btn.click(
+                    #     fn=uninstall_encryption_module, outputs=operation_output
+                    # )
+                    time_data = time.time()*1000
+                    reg_qrcode = f"""
+    <!DOCTYPE html>
+    <html>
+    <body>
+        
+        <div width="150px" style="text-align: left;
+        color:red;font-size:18px"><img src="https://ainterior.space:8005/sarshapa/reg_qrcode.png?time={time_data}" width="150px">
+        微信扫码使用此插件</div>
+    </body>
+    </html>"""
+                    req_qr = gr.HTML(reg_qrcode)
 
     def on_ui_tabs():
         time_data = time.time()*1000
