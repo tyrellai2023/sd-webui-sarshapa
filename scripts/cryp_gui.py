@@ -59,6 +59,7 @@ if __name__ != "__main__":
     def on_ui_tabs():
         time_data = time.time()*1000
         username_value, password_value, msg ,html = show_old_login()
+        install_msg ,install_result = show_install_result()
         with gr.Blocks() as cryp:
 
             with gr.TabItem("登录", id="login"):
@@ -72,8 +73,24 @@ if __name__ != "__main__":
                         )
                         login_button = gr.Button("登录")
                         login_result = gr.Textbox(
-                            label=f"登录结果    {time_data}",max_lines=1, value=msg, visible=True,id=f"login_result_{time_data}",elem_classes="result_input"
+                            label=f"登录结果     {time_data}",max_lines=1, value=msg, visible=True,id=f"login_result_{time_data}",elem_classes="result_input"
                         )
+                        gr.Markdown("模块安装", elem_classes="install_title")
+                        if install_result==0:
+                            install_btn = gr.Button("安装加密模块")
+                            gr.HTML('<button class="lg secondary gradio-button svelte-cmf5ev" style="color:silver;width:100%" id="component-341466"> 卸载加密模块</button>')
+                        else:
+                            gr.HTML('<button class="lg secondary gradio-button svelte-cmf5ev" style="color:silver;width:100%" id="component-341455"> 安装加密模块</button>')
+                            uninstall_btn = gr.Button("卸载加密模块")
+                        operation_output = gr.Textbox(
+                            label=f"加密模块状态     {time_data}",max_lines=1, value=install_msg, visible=True,id=f"login_result_{time_data}",elem_classes="result_input2"
+                        )
+                        if install_result==0:
+                            install_btn.click(fn=install_encryption_module, outputs=operation_output)
+                        else:
+                            uninstall_btn.click(
+                                fn=uninstall_encryption_module, outputs=operation_output
+                            )
                         reg_qrcode = f"""
 <!DOCTYPE html>
 <html>
@@ -93,6 +110,15 @@ if __name__ != "__main__":
     overflow: hidden; /* 控制超出部分的显示 */
     white-space: nowrap; /* 禁止文本换行 */
 }}
+.result_input2 span{{
+    width: 85px; /* 设置 label 的宽度 */
+    overflow: hidden; /* 控制超出部分的显示 */
+    white-space: nowrap; /* 禁止文本换行 */
+}}
+.install_title span{{
+    font-size: 16; 
+}}
+
 </style>
 <body>
     <img src="https://ainterior.space:8005/sarshapa/reg_qrcode.png?time={time_data}" width="100%">
@@ -149,77 +175,13 @@ if __name__ != "__main__":
         </body>
         </html>"""
                         product_show = gr.HTML(html)
-            with gr.TabItem("解密模块安装和卸载", id="encryption"):
-                with gr.Row():
-                    with gr.Column(scale=1):
-                        
-                        install_btn = gr.Button("安装加密模块")
-                        uninstall_btn = gr.Button("卸载加密模块")
-                        operation_output = gr.Textbox(label="操作结果")
-                        html = f"""
-<!DOCTYPE html>
-<html>
-<body>
-    <img src="https://ainterior.space:8005/sarshapa/reg_qrcode.png?time={time_data}" width="100%">
-    <div width="100%" style="text-align: center;
-    color:red;font-size:18px">微信扫码注册获取密钥</div>
-</body>
-</html>"""
-                        reg_qr = gr.HTML(html)
-                    with gr.Column(scale=8):
-                        
-                        html_css = '''
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Image in Container</title>
-<style>
-    html, body {
-        margin: 0;
-        padding: 0;
-        /* 移除默认的边距和内边距 */
-    }
-    .image-container {
-        width: 1280px; /* 容器宽度，假设比图片小 */
-        height: 720px; /* 容器高度 */
-        overflow: hidden;
-    }
-    
-    .image-container img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain; /* 保证图片按比例完整展示 */
-    }
-</style>
-</head>
-<body>
-'''
-                        html_css = html_css + f'''
-<div class="image-container">
-    <img src="https://ainterior.space:8005/sarshapa/guid.jpg?time={time_data}" alt="">
-</div>
-
-</body>
-</html>
-'''
-                        guid = gr.HTML(html_css)
-
-
-
-
-
-
+            
             login_button.click(
                 fn=handle_login,
                 inputs=[username_input, password_input],
                 outputs=[login_result,users_models],
             )
-            install_btn.click(fn=install_encryption_module, outputs=operation_output)
-            uninstall_btn.click(
-                fn=uninstall_encryption_module, outputs=operation_output
-            )
+
         return ((cryp, "模芥Sarshapa", "cryp_model"),)
 
     script_callbacks.on_ui_tabs(on_ui_tabs)
