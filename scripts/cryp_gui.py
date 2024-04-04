@@ -78,9 +78,9 @@ if __name__ != "__main__":
                         gr.Markdown("模块安装", elem_classes="install_title")
                         if install_result==0:
                             install_btn = gr.Button("安装加密模块")
-                            gr.HTML('<button class="lg secondary gradio-button svelte-cmf5ev" style="color:silver;width:100%" id="component-341466"> 卸载加密模块</button>')
+                            gr.HTML('<button class="lg secondary gradio-button svelte-cmf5ev" style="color:#808080;width:100%" id="component-341466"> 卸载加密模块</button>')
                         else:
-                            gr.HTML('<button class="lg secondary gradio-button svelte-cmf5ev" style="color:silver;width:100%" id="component-341455"> 安装加密模块</button>')
+                            gr.HTML('<button class="lg secondary gradio-button svelte-cmf5ev" style="color:#808080;width:100%" id="component-341455"> 安装加密模块</button>')
                             uninstall_btn = gr.Button("卸载加密模块")
                         operation_output = gr.Textbox(
                             label=f"加密模块状态     {time_data}",max_lines=1, value=install_msg, visible=True,id=f"login_result_{time_data}",elem_classes="result_input2"
