@@ -1,0 +1,1097 @@
+[
+  {
+    "name": "0AD标准写实",
+    "prompt": "cinematic_angle,{prompt},depth of field,bokeh,dynamic_angle,lens_flare,building_focus,\n((masterpiece)),(hyperrealism:1.1),(best quality:1.1),(ultra-high resolution:1.1),(realistic:1.1),(8k:1.1),insanely detailed,cinematic,",
+    "negative_prompt": "blurry,Depth of Field DoF,((nsfw)),sketches,tattoo,(beard:1.3),(Worst quality,low quality,lowres:1.2),error,cropped,jpeg artifacts,out of frame,watermark,signature,simplified, abstract, unrealistic, impressionistic, low resolution"
+  },
+  {
+    "name": "base",
+    "prompt": "photography,{prompt}, capturing moments, storytelling, creative composition",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "1效果图-MIR渲染",
+    "prompt": "mir_rendering style,{prompt}, cutting-edge design, futuristic aesthetics, intricate details, ultra-high-definition textures, dynamic lighting, realistic materials, professional-grade visualization, immersive and engaging environments, showcasing innovation and precision, advanced rendering techniques, 4k resolution, volumetric effects, captivating visuals",
+    "negative_prompt": "amateur design, outdated graphics, low resolution, pixelated textures, poor lighting, unrealistic materials, unprofessional quality, cluttered compositions, signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "1效果图-SAN渲染",
+    "prompt": "rendering by san,{prompt},Architectural rendering,adarchi_materpiece,sleek and modern design language,high-resolution imagery,advanced shading techniques,photorealistic textures,meticulous attention to detail,harmonious color palettes,dynamic and balanced compositions,innovative use of lighting,state-of-the-art rendering engines,crisp and clean visuals,embodying the essence of contemporary digital art,4K definition,HDR support,showcasing technical excellence and creative flair,",
+    "negative_prompt": "outdated rendering methods,low-quality textures,aliasing,noise,inconsistent lighting,inaccurate reflections,amateur compositions,cluttered scenes,oversaturated colors,signature,watermark,unappealing,misaligned,distorted,cropped,low resolution,poor quality,lowres,JPEG artifacts,"
+  },
+  {
+    "name": "1效果图-D5渲染",
+    "prompt": "D5 Rendering,{prompt},GI technology,XeSS and DLSS for enhanced visuals and performance,intricate details,ultra-high-definition textures,dynamic lighting,realistic materials,professional-grade visualization,immersive and engaging environments,16k resolution,",
+    "negative_prompt": "watermark,Avoids low-quality renders,poor lighting,and outdated techniques,ensuring professional and polished outputs,amateur design,outdated graphics,low resolution,pixelated textures,poor lighting,unrealistic materials,unprofessional quality,cluttered compositions,signature,watermark,ugly,off-center,deformed,cropped,frame,worst quality,low quality,lowres,JPEG artifacts,"
+  },
+  {
+    "name": "1效果图-lumion渲染",
+    "prompt": "Lumion rendering style,{prompt},architectural visualization,realistic materials,dynamic lighting,immersive environments,high-quality professional rendering,detailed landscapes,lifelike reflections,atmospheric effects,stunning visuals,3D architectural presentation,advanced rendering techniques,photorealistic quality,vibrant colors,4k,",
+    "negative_prompt": "(watermark:1.1),low-quality rendering,amateur,cartoonish,sketchy,unrealistic textures,poor lighting,washed-out colors,oversaturated,grainy,noisy,distorted,pixelated,out-of-focus,signature,watermark,ugly,off-center,deformed,cropped,frame,worst quality,low quality,lowres,JPEG artifacts,"
+  },
+  {
+    "name": "1效果图-设计竞赛渲染风格",
+    "prompt": "Architectural design competition rendering style,{prompt},rendering by filckr,concept art,digital artwork,innovative architectural concepts,precise and detailed 3D modeling,professional-grade visualization,photorealistic materials and textures,dramatic and appealing lighting,showcasing spatial relationships,emphasizing design and functionality,clear and compelling presentation,advanced rendering techniques,high-resolution imagery,showcasing sustainable features,future-oriented design,dynamic perspectives,engaging and eye-catching visuals,3D architectural excellence,environmental harmony,state-of-the-art technology integration,4k,",
+    "negative_prompt": "(watermark:1.2),amateur,non-professional,unrealistic,overly stylized,poor lighting,low-quality textures,cluttered composition,distorted perspective,oversaturated colors,grainy,noisy,pixelated,out-of-focus,signature,watermark,ugly,off-center,deformed,cropped,frame,worst quality,low quality,lowres,JPEG artifacts,"
+  },
+  {
+    "name": "1效果图-3dMAX建筑渲染",
+    "prompt": "professional 3D architectural rendering,{prompt}, realistic visualization, intricate detailing, lifelike textures, dynamic lighting, immersive environment, photorealistic representation, captivating visuals, realistic materials, professional rendering techniques, volumetric, 4k",
+    "negative_prompt": "painting, low-quality rendering, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 普通渲染",
+    "prompt": "professional 3d render,{prompt}, 3D render artistic style, intricate details, creative composition, professional rendering, photorealistic textures, dynamic lighting, captivating visuals, octane render, highly detailed, volumetric, dramatic lighting",
+    "negative_prompt": "low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 抽象",
+    "prompt": "abstract 3D render,{prompt}, abstract 3d art, imaginative design, dynamic lighting, immersive presentation, captivating visuals, high-quality rendering techniques, innovative concept, unique aesthetics, creative compositions, visually stunning results, volumetric, 4k",
+    "negative_prompt": "painting, low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 流体动力学",
+    "prompt": "fluid dynamics 3D art style,{prompt}, 3d fluid render, expressive and dynamic, vibrant contrasting colors, lively appearance, mesmerizing flow of shapes, simulation of fluid dynamics, swirling motion, bold colors blending seamlessly, abstract and captivating, fluidity and energy, mesmerizing composition, engaging viewer experience, seamless integration of colors and shapes, volumetric, 4k",
+    "negative_prompt": "painting, low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 柔和形态",
+    "prompt": "modern abstract 3D art style,{prompt}, focusing on organic shapes and objects, soft colors, captivating composition, tactile qualities, smoothness, softness, contrast between matte and shiny textures, depth and interest, blend of textures, minimalistic yet complex aesthetic, volumetric, 4k",
+    "negative_prompt": "painting, low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 手工建筑模型",
+    "prompt": "Handmade architectural model style,{prompt}, tactile craftsmanship, detailed miniature structures, precise scale representation, showcases design intent and form, traditional and modern materials, immersive and tangible experience, professional-grade execution, emphasizes spatial relationships, conveys architectural concepts, clear and compelling presentation, intricate detailing, handcrafted textures, artisanal quality, 3D spatial understanding, explorative and expressive design, small-scale masterpieces, captures essence of architecture, prototype development, 4k",
+    "negative_prompt": "mass-produced, digital prints, low-quality materials, sloppy craftsmanship, inaccurate scale, poor detailing, distorted perspective, off-center composition, signature, watermark, ugly, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 卡通风格角色",
+    "prompt": "professional 3D cartoon character design,{prompt}, whimsical animation, vibrant personality, exaggerated features, dynamic pose, expert character design, colorful textures, engaging storytelling, versatile animation styles, captivating visuals, imaginative concepts, playful interactions, high-quality rendering, volumetric, 4k",
+    "negative_prompt": "low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 可爱卡通角色",
+    "prompt": "professional 3D design of a cute and adorable cartoon character with big eyes,{prompt}, charming animation, endearing personality, exaggerated features, dynamic pose, captivating expression, expert character design, vibrant and colorful textures, engaging storytelling, versatile animation style, high-quality render, volumetric, 4k",
+    "negative_prompt": "low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 游戏物品",
+    "prompt": "3d game item,{prompt}, high-quality 3D rendering of a game asset, dynamic lighting, captivating visuals, seamless integration, realistic materials, high-quality rendering techniques, versatile application, innovative concepts, optimized for gaming engines, volumetric, 4k",
+    "negative_prompt": "low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 硬表面",
+    "prompt": "professional hard surface 3D design modeling,{prompt}, hard surface expert modeling, hard surface 3d render, precise detailing, captivating visuals, professional-grade design, dynamic appearance, attention-grabbing aesthetics, high-quality rendering techniques, volumetric, 4k",
+    "negative_prompt": "painting, low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 3D图标",
+    "prompt": "3D icon design,{prompt}, isolated on solid background, creative icon design, minimalist, depth and dimensionality, dynamic lighting, captivating visuals, high-quality rendering techniques, volumetric, 4k",
+    "negative_prompt": "painting, low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 轴测图",
+    "prompt": "isometric 3D render,{prompt}, isometric 3D design, isometric perspective, precise perspective, clean, dynamic lighting, captivating visuals, immersive presentation, high-quality rendering techniques, volumetric, dramatic lighting, 4k",
+    "negative_prompt": "painting, low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 低多边形",
+    "prompt": "Low poly 3D design aesthetic,{prompt}, minimalist and stylized appearance, expert modeling software, efficient detailing, immersive presentation, captivating visuals, professional-grade design, dynamic and clean appearance, versatile application, attention-grabbing aesthetics, efficient rendering, suitable for performance-sensitive applications such as games and simulations",
+    "negative_prompt": "painting, low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 机甲",
+    "prompt": "3d mechanical render,{prompt}, mech style, scifi, futuristic, detailed mech 3D rendering, intricate design, dynamic lighting, captivating visuals, high-quality rendering techniques, futuristic aesthetics, volumetric, 4k",
+    "negative_prompt": "painting, low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 3d模型",
+    "prompt": "detailed 3D model representation,{prompt}, 3d render, captivating visuals, professional-grade design, dynamic appearance, high-quality rendering techniques, volumetric, 4k",
+    "negative_prompt": "painting, low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 产品",
+    "prompt": "professional 3d model,{prompt}, 3D product visualization, octane render, immersive presentation, photorealistic rendering, captivating visuals, realistic materials, highly detailed, volumetric, dramatic lighting, 4k",
+    "negative_prompt": "low poly, blurry, painting, low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 科幻",
+    "prompt": "futuristic 3D rendering,{prompt}, imaginative design, dynamic lighting, immersive presentation, volumetric, futuristic elements, captivating visuals, realistic materials, high-quality rendering techniques, innovative concepts, otherworldly atmosphere, futuristic aesthetics, immersive storytelling, 4k",
+    "negative_prompt": "painting, low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "3D | 交通工具",
+    "prompt": "professional 3D vehicle render,{prompt}, realistic representation, intricate detailing, dynamic lighting, immersive presentation, seamless integration, photorealistic rendering, captivating visuals, realistic materials, high-quality rendering techniques, octane render, highly detailed, volumetric, dramatic lighting, 4k",
+    "negative_prompt": "painting, low-quality rendering, photo, photorealistic, realism, ugly, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "2摄影 | 鸟瞰",
+    "prompt": "aerial photography,{prompt}, drone photography, sweeping landscapes, unique perspectives, epic scale, revealing hidden beauty, showcasing vastness, immersive experience, precise compositions, expert piloting, dynamic angles, cinematic storytelling, showcasing natural wonders, aerial exploration",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 建筑",
+    "prompt": "adarchi_materpiece,{prompt},architecture photography, striking structures, clean lines, geometric shapes, dramatic angles, play of light and shadow, capturing architectural details, showcasing design elements, evoking mood, professional lighting, precise compositions, emphasizing scale and proportion, creating depth, architectural storytelling, capturing iconic landmarks, immersive experience,Architectural ultra-realistic rendering",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 胶片",
+    "prompt": "analog film photo,{prompt}, faded film, desaturated, 35mm photo, grainy, vignette, vintage, Kodachrome, Lomography, stained, highly detailed, found footage",
+    "negative_prompt": " painting, drawing, illustration, glitch, deformed, mutated, cross-eyed, ugly, disfigured，bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 电影照片",
+    "prompt": "Cinematic photography,{prompt}, movie mood, cinematic light, compelling composition, storytelling elements, conveys emotion, mood, and narrative depth, creating visually striking images that feel like still frames from a film，exquisite detail, immersive experience, storytelling through imagery, conveying mood,  unique perspective, thought-provoking concept, capturing beauty, transcending reality,Architectural ultra-realistic rendering",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 纪录片",
+    "prompt": "documentary photography,{prompt}, capturing reality, social issues, human experiences, photojournalistic storytelling, candid moments, authentic narratives, raising awareness, documenting history, preserving cultural heritage, immersive storytelling, evoking empathy, powerful imagery, journalistic integrity,Architectural ultra-realistic rendering",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 实验性",
+    "prompt": "experimental photography,{prompt}, pushing the boundaries of creativity, unconventional techniques, innovative concepts, artistic exploration, thought-provoking imagery, pushing the boundaries of traditional photography",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 海报",
+    "prompt": "Fashion photography,{prompt}, glamorous, dynamic composition, high-fashion aesthetic, professional studio lighting, editorial storytelling, artistic interpretation, fashion-forward visual, avant-garde aesthetics, conveying fashion trends and concepts, evoking emotion, pushing creative boundaries",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 植物",
+    "prompt": "flower photography,{prompt}, capturing nature's beauty, delicate petals, vibrant colors, intricate details, showcasing botanical diversity, evoking emotions, conveying serenity, expert composition, professional lighting, immersive floral portrait, timeless elegance,AD_Landscape",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 景观",
+    "prompt": "landscape photography,{prompt}, vast vistas, natural beauty, dynamic compositions, captivating scenery, immersive, serene,Architectural ultra-realistic rendering,AD_Landscape",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 长曝光",
+    "prompt": "long exposure photography,{prompt}, streaking lights, smooth motion, dreamy landscapes, ethereal atmosphere, light painting, creative expression, time manipulation, surreal effects, captivating visuals, artistic interpretation, immersive experience, unique perspective",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 忧郁",
+    "prompt": "low key photography,{prompt}, dramatic lighting, deep shadows, rich contrast, moody atmosphere, intense emotions, cinematic feel, mysterious ambiance, emphasizing shape and form, creating depth, evoking drama, storytelling through shadows, professional technique, faded film,desaturated,35mm photo,grainy,vignette,vintage,Kodachrome,Lomography,stained,highly detailed,found footage,",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 微距",
+    "prompt": "macro photography,{prompt}, extreme close-ups, intricate details, unseen worlds, capturing texture, emphasizing details, revealing beauty in small things, professional lighting, precise focusing, artistic expression, immersive experience, expert technique",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 极简",
+    "prompt": "minimalist photography,{prompt}, simplicity in composition, clean lines, uncluttered visuals, negative space, focusing on essential elements, conveying tranquility, understated beauty, elegant aesthetics, subtle storytelling, capturing the essence of minimalism",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 模型",
+    "prompt": "mockup photography,{prompt}, professional presentation, blank, empty,  creative composition, versatile use,  professional lighting, expert styling, high-quality imagery, realistic perspective, accurate representation",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 夜晚",
+    "prompt": "night photography,{prompt}, nocturnal beauty, city lights, starry skies, celestial wonders, moonlit landscapes, urban glow, capturing the essence of darkness, ethereal atmosphere, dramatic shadows, magical ambiance, long exposure techniques, expert use of light sources",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 运动",
+    "prompt": "sport photography,{prompt}, action-packed moment, dynamic, intense competition, thrilling movement, showcasing skill, conveying energy, adrenaline-fueled visuals, immersive experience, storytelling through action, dramatic composition, showcasing passion, capturing decisive moments, vibrant colors, dynamic composition, powerful imagery, engaging perspective",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 静物",
+    "prompt": "still life photography,{prompt}, capturing tranquility, timeless beauty, meticulous arrangement, exquisite detail, professional lighting, expert composition, evocative mood, storytelling through objects, artistic interpretation, creative expression, showcasing textures, intricate patterns, enhancing atmosphere, conveying emotions, masterful technique, immersive experience",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 超现实",
+    "prompt": "surreal photography,{prompt}, dreamlike imagery, subconscious exploration, bending reality, imaginative narratives, juxtaposing elements, evoking wonder and awe, transcending boundaries, challenging perceptions, fantastical landscapes, otherworldly atmospheres,Architectural ultra-realistic rendering",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 延时摄影",
+    "prompt": "time-lapse photography,{prompt}, dynamic motion, fluid transition, changing landscape, evolving scene, captivating visual storytelling, accelerated time",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 水下",
+    "prompt": "underwater photography,{prompt}, otherworldly landscape, unique perspective, ethereal lighting, dynamic composition, captivating underwater scene, immersive, serene, expert lighting technique, breathtaking moment captured",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "2摄影 | 老照片",
+    "prompt": "vintage photography,{prompt}, nostalgic charm, timeless appeal, old-world aesthetics, classic elegance, warm tones, soft focus, aged textures, evoking nostalgia, historical ambiance, storytelling through imagery, vintage atmosphere, timeless compositions, authentic vintage look, professional technique",
+    "negative_prompt": "bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  },
+  {
+    "name": "5绘画 | 抽象表现主义",
+    "prompt": "Abstract Expressionism art style,{prompt}, emphasizes spontaneous and gestural brushwork, explores emotions and inner thoughts, non-representational and subjective, influenced by the subconscious and the act of painting itself",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 丙烯画",
+    "prompt": "Acrylic Paint art style,{prompt}, fast-drying paint, versatile, vibrant colors, expressive brushwork, rich textures, dynamic compositions, bold contrasts, layered depth, tactile quality, fluid movement, lively energy, immersive atmosphere, professional-grade finish",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 儿童绘本",
+    "prompt": "digital painting,{prompt}, whimsical children's book art style,  charming and inviting illustration style, soft and rounded shapes, warm and inviting color palette, creates a friendly and serene atmosphere, simplicity and clarity make it accessible and enjoyable for a wide audience, imaginative scene with fantastical elements in a storybook-like setting, encourages viewer's sense of wonder and exploration",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 中国水墨画",
+    "prompt": "Chinese ink brush art style,{prompt}, graceful brushwork, elegant compositions, traditional motifs, professional-grade execution, captures the essence of Chinese culture and aesthetics",
+    "negative_prompt": "Chinese writing, signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 数码板绘",
+    "prompt": "Digital painting art style,{prompt}, dynamic composition, professional-grade execution",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 游戏原画",
+    "prompt": "digital painting art style,{prompt}, fantasy video game concept art style, dynamic and richly detailed composition, vibrant colors, action-packed scene, emphasizes dramatic poses and expressive faces, immersive environments with fantasy backgrounds, designed to draw viewers into fantastical worlds, typical for character and environment designs in video games",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 幻想卡通",
+    "prompt": "Fantasy cartoon concept art style,{prompt}, cartoon cute digital painting, imaginative, dynamic composition, whimsical expression, adorable, playful character, professional-grade execution, creates immersive world and landscape, brush strokes",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 幻想游戏原画",
+    "prompt": "Fantasy concept art style,{prompt}, digital painting, imaginative, dynamic composition, professional-grade execution, creates immersive world and landscape, brush strokes, epic, magical",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 游戏概念原画",
+    "prompt": "Fantasy game concept art on solid color background,{prompt}, game item design, detailed and painterly style, focus on fantasy elements, attention to texture and additional elements like, suitable for video games or animation",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 壁画",
+    "prompt": "Fresco painting art style,{prompt}, ancient painting technique dating back to antiquity, rich colors and textures, timeless aesthetic, historical significance, evokes a sense of tradition and craftsmanship",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 街头涂鸦",
+    "prompt": "Graffiti aerosol painting art style,{prompt}, bold composition, vibrant colors, mural, urban aesthetic, hip hop culture",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 黑暗幻想",
+    "prompt": "Grimdark painting art style,{prompt}, dark and brooding composition, dramatic lighting, captures the sinister and macabre atmosphere",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 厚涂法",
+    "prompt": "impasto painting art style,{prompt}, thick and textured brushwork, vibrant colors, tactile quality, expressive strokes, dynamic compositions, bold contrasts, dramatic lighting effects, immersive texture, professional-grade finish, adds depth and dimension, creates visual interest",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 印象派绘画风格",
+    "prompt": "Impressionism painting art style,{prompt}, loose brushwork, captures the fleeting effects of light and atmosphere",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 魔幻现实主义",
+    "prompt": "Magic realism painting art style,{prompt}, surreal compositions, vibrant colors, blurs the line between reality and fantasy",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 文艺复兴",
+    "prompt": "oil painting art style from Renaissance period,{prompt}, masterful composition, Renaissance mood, renaissance oil painting, brush strokes",
+    "negative_prompt": "painting frame, signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 复古未来主义",
+    "prompt": "Retrofuturism painting art style,{prompt}, nostalgic composition, combines retro aesthetics with futuristic elements",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 墨水画",
+    "prompt": "Sumi-e painting style,{prompt}, traditional Japanese ink wash painting, emphasizes simplicity and elegance, expressive brushwork, captures the essence of the subject with minimal strokes, meditative and reflective",
+    "negative_prompt": "Japanese writing, Chinese writing, chinese stamp, signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 水彩画",
+    "prompt": "Watercolor painting art style,{prompt}, transparent and delicate layers, luminous and ethereal effects, spontaneous and fluid compositions, subtle gradients and blending, captures light and atmosphere, creates soft and dreamy scenes",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 水彩卡通",
+    "prompt": "Cartoon watercolor painting style,{prompt}, playful cartoon character, dynamic composition, whimsical expression, soft and fluid texture, adds charm and personality, subtle gradients and blending, captures light and atmosphere, creates soft and dreamy scenes, watercolor texture",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "5绘画 | 铅笔淡彩",
+    "prompt": "Watercolor painting art style,{prompt}, isolated on solid white background, transparent and delicate layers, luminous and ethereal effects,  subtle gradients and blending, captures light and atmosphere, creates soft and dreamy scenes",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4素描 | 蓝色圆珠笔",
+    "prompt": "dark blue color ballpoint pen drawing art style,{prompt}, expressive dark blue lines, dynamic compositions, professional-grade execution, captures the spontaneity and fluidity of sketching",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4素描 | 漫画",
+    "prompt": "Caricature art style,{prompt}, exaggerated features, humorous interpretation, dynamic composition, professional-grade execution, adds humor and personality, captures essence in a playful manner",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4素描 | 炭笔",
+    "prompt": "charcoal drawing style,{prompt}, dramatic contrast, expressive strokes, rich textures, dynamic composition, professional-grade finish, classic aesthetic",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4素描 | 彩色铅笔",
+    "prompt": "Colored pencil drawing art style,{prompt}, vibrant colors, delicate shading, professional-grade execution, captures the richness and depth of traditional drawing techniques",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4素描 | 石墨",
+    "prompt": "graphite drawing art style,{prompt}, subtle tones, delicate shading, precise detailing, fine textures, expressive lines, intricate compositions, timeless elegance, professional-grade finish, immersive depth, classic aesthetic",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4素描 | 墨水",
+    "prompt": "Ink drawing art style,{prompt}, bold lines, expressive strokes, high contrast, intricate details, dynamic compositions, versatile medium, professional-grade finish, classic aesthetic, adds depth and texture, timeless elegance",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4素描 | 粉彩",
+    "prompt": "pastel drawing art style,{prompt}, pastel colors, delicate shading, dynamic composition, soft and velvety pastel textures, amazing pastel drawing",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4素描 | 钢笔",
+    "prompt": "pen drawing art style,{prompt}, precise lines, intricate details, high contrast, dynamic compositions, versatile medium, professional-grade finish, timeless elegance, creates bold and expressive strokes",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4素描 | 铅笔",
+    "prompt": "Pencil drawing art style,{prompt}, delicate shading, precise lines, professional-grade execution, captures the subtlety and texture of graphite",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4素描 | 刮画板",
+    "prompt": "Scratchboard drawing art style,{prompt}, intricate details, dramatic contrast, professional-grade execution, captures the tactile quality and depth of etching",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4素描 | 技术绘图",
+    "prompt": "Technical drawing art style,{prompt}, precise and detailed, emphasizes accuracy and clarity, communicates complex ideas visually",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4素描 | 禅绕画",
+    "prompt": "Zentangle drawing art style,{prompt}, clean, minimalist, meditative and relaxing, uses repetitive patterns and structured designs to create intricate and abstract artworks, precise lines, professional-grade execution, contrast, black and white",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4矢量图 | 涂色书页",
+    "prompt": "Vector coloring book page style,{prompt}, clean and crisp lines, on solid white background, scalable and editable artwork, suitable for printing and digital coloring, promotes creativity and relaxation, black and white, contrast, profesional, minimalist",
+    "negative_prompt": "painting, signature, shading, gray, gradient, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4矢量图 | 平面艺术风格",
+    "prompt": "Modern flat vector style art on solid color background,{prompt}, minimalist,  flat vector art, corporate artstyle, simplified shapes, modern color palette, modern conceptual art, clean lines, geometric forms, contemporary graphic design influence, stylized character features, playful touch, visually appealing, clear communication of ideas, suitable for modern media, web design, advertising, cheerful and engaging aesthetic, easily adaptable",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4矢量图 | 线艺术",
+    "prompt": "black vector line art on solid white background,{prompt}, minimalist, vector line art style, clean lines, scalable graphics, professional-grade execution, stylized, professional vector, sleek, modern, graphic, vector graphics",
+    "negative_prompt": "painting, signature, shading, gradient, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4矢量图 | LOGO",
+    "prompt": "vector logo art style,{prompt}, on solid color background, vector logo symbol, stylized logo, logo icon, minimalist, clean, clean and scalable designs, precise lines, professional-grade execution, emphasizes simplicity and versatility",
+    "negative_prompt": "signature, shading, gradient, painting, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4矢量图 | 剪影",
+    "prompt": "black vector silhouette on solid white background,{prompt}, minimalist, SVG silhouette art style, clean lines and shapes, scalable graphics, professional-grade execution, stylized, professional vector",
+    "negative_prompt": "signature, shading, gradient, painting, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "4矢量图 | 可爱剪影",
+    "prompt": "cute cartoon black vector silhouette on solid white background,{prompt}, minimalist, SVG silhouette art style, adorable, clean lines and shapes, scalable graphics, professional-grade execution, stylized cartoon, professional cartoon vector",
+    "negative_prompt": "signature, shading, gradient, painting, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 头像",
+    "prompt": "Avatar design style,{prompt}, visually appealing and distinctive avatar, professional-grade execution, represents individual or brand identity effectively, enhances online presence and engagement",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 横幅",
+    "prompt": "Banner design style,{prompt}, eye-catching and informative banner, professional-grade execution, effectively communicates message or event details, captures attention",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 小册子",
+    "prompt": "Brochure design style,{prompt}, informative and visually appealing layout, professional-grade execution, effectively communicates product or service details, enhances brand credibility",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 名片",
+    "prompt": "Business card design style,{prompt}, professional and memorable card, professional-grade execution, effectively represents brand identity and contact information",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 活动邀请函",
+    "prompt": "Event invitation design style,{prompt}, visually appealing and informative invitation, professional-grade execution, effectively communicates event details, encourages attendance",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 网站图标",
+    "prompt": "Favicon design style,{prompt}, isolated on white background, small and recognizable website icon, professional-grade execution, enhances brand recognition and website identity, complements overall design aesthetic",
+    "negative_prompt": "complex, boring, signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 传单",
+    "prompt": "Flyer design style,{prompt}, visually appealing and informative flyer, professional-grade execution, effectively promotes an event or product, engages audience",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 图标设计",
+    "prompt": "Icon design style,{prompt}, visually clear and recognizable icon, professional-grade execution, effectively conveys concepts or actions, enhances user interface and experience",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 简约黑色图标设计",
+    "prompt": "minimalist modern black icon design on solid white background,{prompt}, simple stylized icon, vector graphic icon, clean and minimalist vector icon, professional-grade execution, enhances visual clarity and simplicity",
+    "negative_prompt": "complex, boring, signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 信息图表",
+    "prompt": "Infographic design style,{prompt}, visually engaging and informative graphic, professional-grade execution, effectively communicates complex information or data, enhances understanding",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 信头",
+    "prompt": "Letterhead design style,{prompt}, professional and branded letterhead, professional-grade execution, enhances brand identity and communication",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 标志",
+    "prompt": "Logo design style,{prompt}, custom and memorable logo, professional-grade execution, captures brand identity and values, timeless and iconic design",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 杂志布局",
+    "prompt": "Magazine layout design style,{prompt}, visually appealing and well-organized layout, professional-grade execution, effectively showcases content and articles, enhances reader experience",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 菜单",
+    "prompt": "Menu design style,{prompt}, visually appealing and informative menu, professional-grade execution, effectively presents food and beverage options, enhances dining experience",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 包装",
+    "prompt": "Packaging Design,{prompt}, Brand Identity, Visual Communication, Product Presentation, Consumer Appeal, structural integrity, graphic elements, brand recognition, marketing impact, professional design",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 海报",
+    "prompt": "Poster design style,{prompt}, poster art, visually striking and informative poster, professional-grade execution, poster graphic design",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "6设计 | 网站",
+    "prompt": "Website design style,{prompt}, web page, user-friendly interface, visually appealing layout, professional-grade execution, responsive design, enhances user experience and engagement",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 非洲传统",
+    "prompt": "African traditional art style,{prompt}, bold patterns, vibrant colors, intricate designs, dynamic compositions, cultural heritage, adds richness and depth",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 非洲未来主义艺术",
+    "prompt": "Afrofuturism art style,{prompt}, blend of African culture and aesthetics with futuristic elements, reimagines history and imagines alternative futures, black identity, creativity, and resilience",
+    "negative_prompt": "Signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 古埃及壁画",
+    "prompt": "Ancient Egyptian mural art style,{prompt}, rich cultural heritage, intricate hieroglyphics, vibrant colors, symbolic motifs, depicts scenes from mythology, religion, and daily life, monumental scale, timeless beauty",
+    "negative_prompt": "Signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 原子朋克",
+    "prompt": "Atompunk art style,{prompt}, retro-futuristic, atomic age aesthetics, sleek and streamlined designs, nuclear energy motifs, optimism about technological progress",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 巴洛克",
+    "prompt": "Baroque art style,{prompt}, dynamic composition, dramatic lighting, rich colors, intricate details, professional-grade execution, captures the grandeur and theatricality of the Baroque period",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 生物机械",
+    "prompt": "Biomechanical art style,{prompt}, Biology, Machinery, Intricate, Surreal, Organic Forms, Mechanical Structures, Futuristic, Cyberpunk, Fusion, Nature, Technology",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 生物朋克",
+    "prompt": "Biopunk art style,{prompt}, explores genetic engineering, biohacking, and biotechnology, organic and living elements, dystopian or utopian visions of a genetically modified future",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 拜占庭图标",
+    "prompt": "Byzantine icon oil painting art style,{prompt}, intricate details, rich colors, religious symbolism, cultural significance, professional-grade execution, spiritual, religious",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 卡通",
+    "prompt": "cartoon art style,{prompt}, whimsical character, exaggerated features, vibrant colors, dynamic composition, expressive pose, professional-grade finish, adds humor and charm",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 粘土动画",
+    "prompt": "Claymation art style,{prompt}, tactile and three-dimensional character, dynamic animation, captures the charm and whimsy of stop-motion animation, suitable for various storytelling and advertising",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 漫画书风格",
+    "prompt": "comic book art style,{prompt}, comics, dynamic lines, vibrant colors, expressive characters, action-packed composition, adds energy and excitement",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 构成主义",
+    "prompt": "Constructivism Art Style,{prompt}, Industrial materials, geometric abstraction, social purposes, modernity, functional art, the machine age and collective labor, fosters innovation and collaboration",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 立体主义",
+    "prompt": "cubism art style,{prompt}, fragmented forms, geometric shapes, dynamic compositions, vibrant colors, innovative technique, cultural significance",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 赛博哥特艺术",
+    "prompt": "Cybergoth art style,{prompt}, futuristic and edgy aesthetic, combines cyberpunk and gothic elements, neon colors, industrial motifs, alternative fashion and culture",
+    "negative_prompt": "Signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 赛博朋克",
+    "prompt": "Cyberpunk art style,{prompt}, futuristic cityscapes, neon-lit streets, high-tech and low-life, cybernetic enhancements, dystopian and gritty atmosphere",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 达达主义",
+    "prompt": "Dadaism Art Style,{prompt}, Anti-art, absurdity, irony, spontaneity, rejecting conventional aesthetics, collage art",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 黑暗学院风",
+    "prompt": "Dark Academia art style,{prompt}, evokes the atmosphere of scholarly pursuits and literary classics, rich and moody color palettes, intricate details",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 装饰艺术",
+    "prompt": "Art Deco style,{prompt}, Symmetry, streamlined shapes, geometric patterns, luxury, modernity, glamour, sleek lines",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 柴油朋克",
+    "prompt": "Dieselpunk art style,{prompt}, retro-futuristic, industrial aesthetics, mechanical marvels, alternative history, gritty and dystopian atmosphere",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 埃及风格",
+    "prompt": "Egyptian art style,{prompt}, iconic symbolism, intricate hieroglyphics, dynamic composition, Egyptian cultural significance",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 未来主义",
+    "prompt": "Futurism art style,{prompt}, dynamic composition, bold geometric forms, vibrant colors, captures the spirit of technological advancement and modernity",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 镀金",
+    "prompt": "Gilded art style,{prompt}, opulent, luxurious, metallic elements, divine symbolism, fine craftsmanship",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 故障艺术",
+    "prompt": "Glitch art style,{prompt}, embraces digital errors and glitches, distorted and fragmented imagery, experimental and abstract, challenges traditional notions of perfection and beauty",
+    "negative_prompt": "Signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 哥特式",
+    "prompt": "Gothic art style,{prompt}, gothic details, dramatic compositions, rich symbolism",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 星际",
+    "prompt": "Interstellar art style,{prompt}, Cosmic, Space, Celestial, Galactic, Nebulae, Stars, Planets, Exploration, Unknown, Infinity, Futuristic",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 日本传统",
+    "prompt": "Japanese traditional art style,{prompt}, delicate lines, subtle colors, intricate details, dynamic compositions, cultural heritage, adds elegance and sophistication",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 木刻版画",
+    "prompt": "Linocut art style,{prompt}, relief printing, bold and graphic imagery with striking contrasts",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 墨西哥摔跤",
+    "prompt": "Lucha libre art style,{prompt}, dynamic and colorful compositions, exaggerated characters, captures the excitement and energy of Mexican wrestling culture",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 玛雅",
+    "prompt": "Mayan art style,{prompt}, rich cultural heritage, intricate geometric patterns, mayan colors,  reflects the spiritual and artistic achievements of the Maya civilization",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 米诺安",
+    "prompt": "Minoan art style,{prompt}, dynamic composition, Minoan cultural significance, adds depth and richness",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 天真",
+    "prompt": "Naive art style,{prompt}, simplistic and childlike aesthetic, spontaneous and untrained, captures innocence and purity, features bold colors, exaggerated perspectives, and whimsical themes",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 死灵朋克",
+    "prompt": "Necropunk art style,{prompt}, dark and macabre, blending of death and technology, eerie and unsettling imagery, explores themes of mortality and decay, unique and thought-provoking concepts",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 新艺术运动",
+    "prompt": "Art Nouveau art style,{prompt}, elegant and organic forms, intricate floral motifs, flowing lines, decorative and ornate, influenced architecture, design, and visual arts in the late 19th and early 20th centuries",
+    "negative_prompt": "Signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 像素艺术",
+    "prompt": "pixel art style,{prompt}, pixelated design, flat, uses pixelated graphics reminiscent of classic video games, charming simplicity, intricate detailing despite limited resolution",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 波普艺术",
+    "prompt": "Pop art style,{prompt}, vibrant colors, bold outlines, use of popular culture imagery, iconic and recognizable, consumerism and mass media",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 宣传艺术",
+    "prompt": "propaganda art style,{prompt}, bold and persuasive imagery, dynamic compositions, serves as a powerful tool for communication and persuasion",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 迷幻",
+    "prompt": "Psychedelic art style,{prompt}, vibrant and surreal imagery, kaleidoscopic patterns, intense colors, mind-expanding and hallucinatory, reflects the psychedelic experience and counterculture movement",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 洛可可",
+    "prompt": "Rococo art style,{prompt}, ornate, light-hearted, elegant, decorative, playful subjects, asymmetrical designs",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 太阳能朋克",
+    "prompt": "Solarpunk art style,{prompt}, optimistic vision of the future, sustainable technology, renewable energy sources, lush and green landscapes, community and harmony with nature",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 模板",
+    "prompt": "Street Art,{prompt}, Urban setting, graffiti, murals, social messages, public spaces, anonymity, vibrant visuals",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 街头艺术",
+    "prompt": "Stencil art style,{prompt}, urban and contemporary, graphic and bold imagery",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 蒸汽朋克",
+    "prompt": "Steampunk art style,{prompt}, Victorian-era aesthetics, steam-powered machinery, brass and gears, fantastical inventions, retro-futuristic adventure",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 超现实主义",
+    "prompt": "Surrealism art style,{prompt}, dreamlike and irrational imagery, explores the unconscious mind, juxtaposition of unlikely elements, challenges reality and logic",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 合成波",
+    "prompt": "Synthwave art style,{prompt}, retro-futuristic aesthetic, vibrant neon colors, nostalgic 80s imagery, futuristic landscapes, nostalgic and atmospheric",
+    "negative_prompt": "Signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 乌克兰民间艺术",
+    "prompt": "Ukrainian folk art style,{prompt}, vibrant colors, intricate patterns, dynamic compositions, traditional motifs, cultural heritage, adds richness and depth",
+    "negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 蒸汽波",
+    "prompt": "Vaporwave art style,{prompt}, nostalgic and surreal aesthetic, 80s and 90s retro imagery, glitch art elements, pastel colors, dreamy and ethereal atmosphere",
+    "negative_prompt": "Signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "7艺术 | 西部朋克",
+    "prompt": "Westernpunk art style,{prompt}, fusion of Wild West and futuristic elements, rugged landscapes, cowboy aesthetics, steam-powered technology, adventurous spirit",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 陶瓷",
+    "prompt": "Ceramic craft style,{prompt}, versatile and durable, pottery and ceramic artwork, showcases creativity and craftsmanship",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 陶瓷 > 瓷杯",
+    "prompt": "Cibulak porcelain art style,{prompt}, delicate and intricately detailed porcelain creations, traditional Kazakh craftsmanship, exquisite hand-painted designs, cultural heritage preservation",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 陶瓷 > 玻璃",
+    "prompt": "Ceramic glass craft style,{prompt}, combines ceramic and glass materials to create unique and innovative artwork, offers versatility in texture and transparency, allows for experimentation with light and color",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 陶瓷 > 莫切",
+    "prompt": "Moche craft style,{prompt}, ancient Peruvian civilization known for its intricate ceramic vessels and figurines, rich cultural and artistic heritage, showcases advanced craftsmanship and artistic skill",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 陶瓷 > 瓷器",
+    "prompt": "Ceramic porcelain craft style,{prompt}, utilizes porcelain clay to create delicate and translucent artworks, smooth texture and white color, allows for intricate detailing and precise forms",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 钩针编织",
+    "prompt": "Crochet craft style,{prompt}, versatile and creative, yarn",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 钩针编织 > 阿米加鲁米（一种钩针编织玩偶）",
+    "prompt": "Amigurumi crochet style,{prompt}, Japanese art, cute and whimsical designs, fosters creativity and handcrafting skills",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 十字绣",
+    "prompt": "Cross-stitching art style,{prompt}, traditional and timeless craft, precise and meticulous stitching technique, intricate and decorative piece",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 浮雕",
+    "prompt": "Embossed art style,{prompt}, raised and textured surfaces, adds depth and dimension to artwork, tactile and interactive",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 刺绣",
+    "prompt": "Embroidery art style,{prompt}, decorative designs on fabric, intricate stitching techniques, adds texture and dimension to artwork",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 毛毡",
+    "prompt": "Felt art style,{prompt}, tactile and textural, intricate detailing and layering",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 高比林挂毯",
+    "prompt": "Gobelin tapestry art style,{prompt}, intricate woven designs, rich colors and textures",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 剪纸艺术",
+    "prompt": "Kirigami art style,{prompt}, combines paper cutting with origami folding techniques, creates intricate and dynamic paper sculptures, encourages creativity and precision",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 针织艺术",
+    "prompt": "Knitting art style,{prompt}, fabric and patterns, intricate designs and textures",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 宝石雕刻",
+    "prompt": "Lapidary art style,{prompt}, intricate and precise craftsmanship in cutting and polishing gemstones, creates dazzling and unique pieces of jewelry and sculpture, showcases the natural beauty of mineral",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 激光雕刻木材",
+    "prompt": "Laser engraving art style,{prompt}, precise and detailed engraving on plywood, allows for intricate designs and patterns, modern and versatile technique, flat, wood engraving art",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 皮革工艺",
+    "prompt": "Leatherworking art style,{prompt}, craftsmanship of creating designs and patterns on leather, carving, stamping, and dyeing techniques",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 马卡兰（一种结绳艺术）",
+    "prompt": "Macrame art style,{prompt}, uses knotting techniques to create textiles or decorative items, versatile and tactile craft, allows for intricate patterns and designs",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 镶嵌工艺",
+    "prompt": "Marquetry art style,{prompt}, intricate wood inlay technique, creates decorative patterns and images using veneers of different woods, showcases craftsmanship and attention to detail",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 金属工艺",
+    "prompt": "Metalwork art style,{prompt}, manipulation of metal to create sculptures, showcases craftsmanship and technical skill, intricate and durable designs",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 马赛克",
+    "prompt": "mosaic art style,{prompt}, versatile and decorative, uses small pieces of tile, adds color and texture, glossy, sharp",
+    "negative_prompt": "worst quality, blurry, normal quality, signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts, low details, bad photo, bad photography, bad art"
+  },
+  {
+    "name": "手工艺 | 马赛克 > 罗马式",
+    "prompt": "Roman mosaic art style,{prompt}, intricate and colorful mosaic designs, depict scenes from mythology, daily life, and nature, showcases superb craftsmanship and attention to detail, cultural and historical significance",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 针绣",
+    "prompt": "Needlepoint art style,{prompt}, needlepoint intricate and detailed design created through stitching, rich texture and depth, intricate patterns and color variations, fosters creativity and craftsmanship",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 折纸",
+    "prompt": "Origami art style,{prompt}, traditional Japanese paper folding technique, creates intricate sculptures and designs from  paper",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 剪纸",
+    "prompt": "minimalist Paper cut craft style,{prompt}, designs cut from paper, allows for detailed and delicate artwork",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 塑泥",
+    "prompt": "Plasticine art style,{prompt}, malleable and colorful modeling material, ideal for sculpting and creating 3D artwork",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 烙画",
+    "prompt": "Pyrography art style,{prompt}, uses heat to burn designs onto wood, creates intricate and permanent markings, showcases craftsmanship and attention to detail",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 拼布",
+    "prompt": "Quilted art style,{prompt}, combines fabric and stitching to create intricate designs and patterns, reflects cultural traditions and personal stories, tactile and cozy, showcases craftsmanship and creativity",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 剪贴簿",
+    "prompt": "Scrapbooking art style,{prompt}, creative arrangement of photographs, memorabilia, and decorative elements in albums or displays, preserves memories and tells stories",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑",
+    "prompt": "Sculpture craft style,{prompt}, three-dimensional art form, allows for the creation of expressive and tactile works using various materials , embodies creativity and artistic vision",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 青铜",
+    "prompt": "Bronze sculpture craft style,{prompt}, utilizes bronze as the primary material for creating three-dimensional artworks, known for its durability and timeless beauty, allows for intricate detailing and expressive forms",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 阿莱布里赫（墨西哥民间艺术）",
+    "prompt": "Alebrije sculpture style,{prompt}, vibrant and fantastical Mexican folk art, intricate and whimsical animal figures, handcrafted, celebrates creativity and imagination",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 浅浮雕",
+    "prompt": "Bas-relief art style,{prompt}, sculptural technique where figures or designs are raised slightly from the background, creates depth and texture",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 粘土",
+    "prompt": "Clay sculpture craft style,{prompt}, utilizes clay as the primary material for creating three-dimensional artworks, allows for versatile shaping and modeling technique",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 花瓦（日本古代陶俑）",
+    "prompt": "Haniwa craft style,{prompt}, ancient Japanese burial sculptures, simplistic and stylized figure, cultural and historical significance, preserves traditional craftsmanship and artistry",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 玉石",
+    "prompt": "Jade sculpture craft style,{prompt}, utilizes jade as the primary material for creating three-dimensional artworks, esteemed for its beauty and cultural significance, allows for intricate carving and sculpting techniques",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 大理石",
+    "prompt": "Marble sculpture craft style,{prompt}, utilizes marble as the primary material for creating three-dimensional artworks, renowned for its elegance and beauty, allows for intricate detailing and smooth finishes, timeless and enduring",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 根附（日本传统小雕刻）",
+    "prompt": "Netsuke craft style,{prompt}, traditional Japanese miniature sculpture, intricately carved and detailed, functional and decorative, reflects Japanese culture and craftsmanship",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 奥尔梅克（古代中美洲文明）",
+    "prompt": "Olmec craft style,{prompt}, ancient Mesoamerican art tradition, iconic stone sculpture and figurine, rich cultural heritage, significant influence on subsequent civilizations",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 黄金",
+    "prompt": "Gold sculpture craft style,{prompt}, utilizes gold as the primary material for creating three-dimensional artworks, embodies luxury and opulence, allows for intricate detailing and fine craftsmanship",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 沙雕",
+    "prompt": "Sand sculpture art style,{prompt}, temporary and ephemeral art form created by shaping and carving sand, showcases creativity and skill",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 石头",
+    "prompt": "Stone sculpture craft style,{prompt}, utilizes stone as the primary material for creating three-dimensional artworks, allows for intricate carving and sculpting techniques, durable and long-lasting, embodies strength and solidity",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 木头",
+    "prompt": "Wooden sculpture craft style,{prompt}, utilizes wood as the primary material for creating three-dimensional artworks, showcases the natural beauty and texture of wood, allows for intricate detailing and expressive forms",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 雕塑 > 木雕",
+    "prompt": "Wood carving art style,{prompt}, sculptural technique that involves carving wood to create three-dimensional forms, showcases craftsmanship and precision",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 阴影盒 > 纸",
+    "prompt": "3D papercut shadowbox art style,{prompt}, intricate paper cutting technique to create layered scenes or designs, plays with light and shadow, adds depth and dimensionality to artwork, depth, silhouette",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 阴影盒 > 木头",
+    "prompt": "cat,{prompt}, 3D wood shadowbox art style, layers of wood cut and assembled to create dimensional scenes or designs, natural textures and tones, adds warmth and depth to artwork, depth, silhouette",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 3D 层叠胶合板墙艺",
+    "prompt": "3D plywood laser cut,{prompt}, symmetrical, 3D layered wood wall art style,  stacked layers made from plywood, laser cut, on white painted wall, stacked, 3d layered, minimalist,  layered, dimensional, depth, silhouette, shadow, handmade, high contrast",
+    "negative_prompt": "painting, drawing, photo, 2D, flat, high detail, blurry, noisy, disfigured, complex, intricate, signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "手工艺 | 彩色玻璃",
+    "prompt": "Stained glass art style,{prompt}, vitrail, isolated on solid color background, vibrant colors, intricate patterns, luminous effects when hit by sunlight, traditional craftsmanship, flat",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts, 3d"
+  },
+  {
+    "name": "手工艺 | 挂毯",
+    "prompt": "Tapestry art style,{prompt}, woven textile technique, intricate designs and patterns",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts, 3d"
+  },
+  {
+    "name": "||| FASHION",
+    "prompt": "Mainstream fashion,{prompt}, reflects current trends and styles, easily accessible to the general public, stylish",
+    "negative_prompt": "signature, watermark, ugly, off-center, deformed, cropped, worst quality, low quality, lowres, JPEG artifacts"
+  },
+  {
+    "name": "时装 | 海滩装",
+    "prompt": "Beachwear fashion style,{prompt}, designed for leisure activities and relaxation, features lightweight and breezy clothing, reflects a carefree and laid-back attitude",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 比基尼",
+    "prompt": "Bikini fashion style,{prompt}, bikini, reflects a sense of freedom and liberation",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 波西米亚风",
+    "prompt": "Boho fashion style,{prompt}, inspired by bohemian and hippie aesthetics, characterized by free-spirited and eclectic clothing choices, features flowing fabrics, floral prints, and ethnic-inspired details, promotes individuality and self-expression, embraces a laid-back and carefree attitude",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 角色扮演",
+    "prompt": "Cosplay fashion style,{prompt}, allows individuals to embody their favorite fictional characters, promotes creativity and craftsmanship, features elaborate costumes and accessories, celebrates diverse interests and fandoms",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 赛博朋克",
+    "prompt": "Cyberpunk fashion style,{prompt}, inspired by futuristic dystopian settings, features high-tech and futuristic clothing, incorporates elements of technology and urban culture, promotes a bold and avant-garde aesthetic",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 情绪时尚",
+    "prompt": "Emo fashion style,{prompt}, characterized by dark colors, layered clothing, and edgy accessories, allows individuals to express emotions and individuality, often incorporates elements of punk and gothic styles, promotes self-expression and authenticity",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 魅力",
+    "prompt": "Glamour fashion style,{prompt}, epitomizes sophistication and elegance, features luxurious fabrics like silk and satin, embellishments, promotes a polished and glamorous look, opulence and refinement",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 哥特",
+    "prompt": "Goth fashion style,{prompt}, characterized by dark and dramatic clothing choices, often includes black clothing, lace, leather, and Victorian-inspired elements, promotes a sense of mystery and theatricality, celebrates beauty in the macabre, encourages self-expression and embracing the unconventional",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 重金属",
+    "prompt": "Metalhead fashion style,{prompt}, inspired by heavy metal music culture, features black clothing, leather jackets, band t-shirts, and metal accessories, promotes individuality and rebellion, celebrates a love for music and expression through clothing",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 极简主义",
+    "prompt": "Normcore fashion style,{prompt}, embraces simplicity and everyday clothing items, focuses on comfort and practicality, promotes a minimalist and unpretentious aesthetic, encourages mixing and matching basic wardrobe staples, celebrates understated elegance and timeless style",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 预科生风格",
+    "prompt": "Preppy fashion style,{prompt}, characterized by classic and timeless clothing choices, features tailored silhouettes, vibrant colors, and traditional patterns like plaid and stripes, promotes a polished and sophisticated look, reflects a sense of privilege and tradition associated with elite education",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 精神分裂狂野",
+    "prompt": "Psychobilly fashion style,{prompt}, combines elements of rockabilly, punk, and retro influences, characterized by bold prints, vintage-inspired clothing, and edgy accessories, promotes a rebellious and retro aesthetic, encourages individuality and creativity",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 狂欢派对",
+    "prompt": "Rave fashion style,{prompt}, vibrant and colorful clothing choices, featuring neon colors, bold patterns, and futuristic designs, encourages self-expression and creativity, incorporates elements of dance culture and electronic music, promotes a sense of community and celebration",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 科幻",
+    "prompt": "Sci-Fi Inspired fashion style,{prompt}, draws inspiration from science fiction movies, and futurism, features futuristic silhouettes,  and avant-garde designs, promotes imagination and innovation in fashion, explores concepts of technology",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 性感",
+    "prompt": "Sexy fashion style,{prompt}, embraces sensuality and confidence, beauty, allure, reflects a bold and seductive attitude",
+    "negative_prompt": "(nsfw:2),signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 运动装",
+    "prompt": "Sportswear fashion style,{prompt}, designed for athletic activities and casual wear, features comfortable and functional clothing, and performance fabrics, promotes an active lifestyle and physical fitness",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 蒸汽朋克",
+    "prompt": "Steampunk fashion style,{prompt}, inspired by Victorian-era machinery and science fiction, features a mix of vintage clothing with futuristic elements, promotes creativity and craftsmanship, encourages DIY and upcycling, celebrates a love for exploration and adventure",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 街头风格",
+    "prompt": "Streetwear fashion style,{prompt}, influenced by urban culture and street fashion, features casual and comfortable clothing with bold graphics, promotes self-expression and individuality, celebrates creativity and innovation in design, reflects the diverse influences of music, art, and sports",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 复古",
+    "prompt": "Vintage fashion style,{prompt}, embraces clothing and accessories from previous eras, celebrates timeless designs and craftsmanship, allows for unique and one-of-a-kind looks, evokes nostalgia and a sense of history",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  },
+  {
+    "name": "时装 | 冬季",
+    "prompt": "Winter fashion style,{prompt}, designed for cold weather, features cozy and warm clothing, comfort and chicness",
+    "negative_prompt": "signature, watermark, low quality, JPEG artifacts, off-center, deformed, cropped, worst quality"
+  }
+]

@@ -1,0 +1,747 @@
+[
+  {
+    "name": "AD照片写实起手式",
+    "prompt": "(RAW photo,{prompt}, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:2),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "AD电影氛围起手式",
+    "prompt": "(cinematic film still),{prompt},[shallow depth of field],[[vignette]],highly detailed,high budget,[[[bokeh,cinemascope]]],moody,epic,gorgeous,film grain,grainy,tranguil and peaceful atmosphere,fine and detailed,",
+    "negative_prompt": "anime,cartoon,graphic,text,painting,crayon,graphite,abstract,glitch,deformed,mutated,ugly,disfigured,dirt,wrong perspective,distorted person,Twisted Car,NSFW,EasyNegative,,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "AD概念渲染起手式",
+    "prompt": "concept art . digital artwork,{prompt},illustrative,painterly,matte painting,highly detailed,archi_rendering,adarchi_materpiece,<lora:0AD_ARCH_pro:0.7>,<lora:lw_SAN.V1.0:0.3>,",
+    "negative_prompt": "photo, photorealistic, realism, ugly,painting,crayon,NSFW,EasyNegative,,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "AD传统水彩画起手式",
+    "prompt": "magical sense,{prompt},clean background,(watercolor style:1.3),<lora:AD_MJstyleV1.0:1>",
+    "negative_prompt": "text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "AD静谧孤独摄影风起手式",
+    "prompt": "Dark and Moody photo by Elizabeth Gadd,{prompt},shadows,cinematic,a sense of scale and narrative,ethereal scenes,peaceful shadows,peaceful solitude,stunning contrasts and shadow,introspection,gorgeous,alluring,seductive,8k,Photography,super detailed,hyper realistic,masterpiece,Depth of field,Bright color,Super lightsensation,Caustic,Dark moody aesthetic,intricate,sharp focus,fantasy,surreal 8k photo,cinematic mood,film photography by Julius Shulman,",
+    "negative_prompt": "drawing,painting,crayon,sketch,graphite,impressionist,noisy,blurry,soft,deformed,ugly,(deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.4),text,close up,cropped,out of frame,worst quality,low quality,jpeg artifacts,ugly,duplicate,morbid,mutilated,extra fingers,mutated hands,poorly drawn hands,poorly drawn face,mutation,deformed,blurry,dehydrated,bad anatomy,bad proportions,extra limbs,cloned face,disfigured,gross proportions,malformed limbs,missing arms,missing legs,extra arms,extra legs,fused fingers,too many fingers,long neck,((nsfw)),sketches,tattoo,(beard:1.3),EasyNegative,(worst quality:2),(low quality:2),(normal quality:2),lowers,normal quality,\nfacing away,looking away,text,error,extra digit,fewer digits,cropped,jpeg artifacts,signature,watermark,username,blurry,skin spots,acnes,skin blemishes,bad anatomy,fat,bad feet,cropped,poorly drawn hands,poorly drawn face,mutation,deformed,tilted head.bad anatomy.bad hands,extra fingers,fewer digits.,extra limbs.extra arms,extra legs,malformed limbs.fused fingers,too many fingers,long neck,cross-eyed,mutated hands,bad body,bad proportions,gross proportions,text,error,missing fingers,missing arms,missing legs,extra digit,extra arms,extra leg,extra foot,missing fingers,(Worst quality,low quality,lowres:1.2),error,cropped,jpeg artifacts,out of frame,watermark,signature,nsfw,"
+  },
+  {
+    "name": "AD_XL写实起手式",
+    "prompt": "cinematic_angle,{prompt},depth of field,bokeh,dynamic_angle,lens_flare,building_focus,\n((masterpiece)),(hyperrealism:1.1),(best quality:1.1),(ultra-high resolution:1.1),(realistic:1.1),(8k:1.1),insanely detailed,cinematic,",
+    "negative_prompt": "blurry,Depth of Field DoF,((nsfw)),sketches,tattoo,(beard:1.3),(Worst quality,low quality,lowres:1.2),error,cropped,jpeg artifacts,out of frame,watermark,signature,simplified, abstract, unrealistic, impressionistic, low resolution"
+  },
+  {
+    "name": "AD360全景VR起手式",
+    "prompt": "2:1,{prompt},360panorama,AD_360, (8k, RAW photo, best quality, masterpiece:1.2), (realistic, photo-realistic:1.3)<lora:AD_VR360V1.0:1>,",
+    "negative_prompt": "bad-picture-chill-75v,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "AD总图填色1",
+    "prompt": "ad_master_plan,{prompt},Urban Planning Master Plan,City planning,topview,(masterpiece),(high quality),(best quality:1.2),real,(realistic),super detailed,(full detail),(4k),8k,day,a plan of a city with lots of trees and buildings on it,<lora:AD_masterplanV2.0:0.7>,",
+    "negative_prompt": "text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "AD总图填色2",
+    "prompt": "ad_master_plan,{prompt},drawing of a map,an architectural plan,rich in details,masterpiece,highest quality,<lora:AD_masterplanV2.0:0.8>,",
+    "negative_prompt": "cluttered,paintings,  (worst quality:2), (low quality:2), (normal quality:2), lowres,signature, blurry, drawing, sketch, poor quality, ugly, text, pixelated, low resolution, chaotic spaces,outdated design, cluttered,paintings,  (worst quality:2), (low quality:2), (normal quality:2), lowres,signature, blurry, drawing, sketch, poor quality, ugly, text, pixelated, low resolution, chaotic spaces,outdated design, bad-picture-chill-75v"
+  },
+  {
+    "name": "AD户型平面填色",
+    "prompt": "Rendering floor plan of the apartment layout,{prompt},top view,top-down view,ultra-detailed,(masterpiece), (best quality), (extremely detailed 8k wallpaper), (best shadow),<lora:AD_pmtsV2.0:0.6>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:2),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "AD快闪展台",
+    "prompt": "ExhibitionBooth,{prompt},high-tech,surface,electronic commerce,zaha hadid design,perspective,(8k, RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_ztnkV1.0:0.9>,",
+    "negative_prompt": "text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "水墨淡彩",
+    "prompt": "dfsy,{prompt},traditional pavilion,ink and wash,outdoors,<lora:XM-Ink painting:0.7>,",
+    "negative_prompt": "text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "马克笔手绘",
+    "prompt": "mkb,{prompt},(mark stroke style:1.5),(traditional architecture:1.5),landscape,tree,river,quality,clearly,light colored,white background,<lora:XM-MKBSHF:0.7>,",
+    "negative_prompt": "text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "手绘建筑线稿（曲面建筑）",
+    "prompt": "line art drawing sketch,{prompt},(a building designed by zaha hadid:1.1),curve building,",
+    "negative_prompt": "anime,photorealistic,35mm film,deformed,glitch,blurry,noisy,off-center,deformed,cross-eyed,closed eyes,bad"
+  },
+  {
+    "name": "照片转手绘",
+    "prompt": "lineart,{prompt},outline,contour_deepening,<lora:AD_照片转绘-2.0:0.8>,",
+    "negative_prompt": "anime,photorealistic,35mm film,deformed,glitch,blurry,noisy,off-center,deformed,cross-eyed,closed eyes,"
+  },
+  {
+    "name": "高层住宅起手式",
+    "prompt": "(high-rise residential buildings:1.2),{prompt},a landscaped area,(8k, RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:0AD_ARCH_pro:0.9>,<lora:AD_LandscapeV2.0:0.7>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "商办建筑起手式",
+    "prompt": "commercial,{prompt},Photograph of a modern commercial building,outdoor seating in an urban environment with surrounding greenery,<lora:LW_RAWPHOTO:0.8>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "商办街区起手式",
+    "prompt": "building complex,{prompt},Retail Pedestrian Zone,(8k, RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:LW_RAWPHOTO:1>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "霓虹夜景起手式",
+    "prompt": "architecture,{prompt},neon,outdoor sketch,lights,(8k, RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:LW_RAWPHOTO:0.7>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "酒店建筑起手式",
+    "prompt": "(Hotel:1.1),{prompt},Photograph of a building,an entrance flanked by stylized white canopies,(8k, RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "中式花园起手式",
+    "prompt": "AD_Chinese_garden,{prompt},The image showcases a chinese garden by a pond with a bridge in the background and trees around it,photography style,(8k, RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:0AD_ARCH_pro:1>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "概念展览建筑",
+    "prompt": "Eye-level view,{prompt},daytime,bright and natural tones a futuristic building,building integrated with the landscape featuring organic shapes and greenery,reflective water surface with small ripples,hills in the background.,<lora:lw_SAN.V1.0:0.6>,(RAW photo, best quality, masterpiece:1.2),",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:2),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "公建夜景",
+    "prompt": "Dusk,{prompt},twilight lighting with a blue hue,illuminated architectural facade,building with transparent exterior and interior lighting,pedestrian activity in front of the building,warmly lit staircase leading to an entrance,street life with cars and people,urban trees lining the scene,soft focus on distant buildings,<lora:lw_SAN.V1.0:0.6>,(RAW photo, best quality, masterpiece:1.2),",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:2),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "商业中庭",
+    "prompt": "commercial atrium,{prompt},atrium,glass top,(extremely detailed CG unity 8k wallpaper),(masterpiece),(best quality),(ultra-detailed),(best shadow),<lora:lw-MIR:0.5>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:2),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "商办风格1",
+    "prompt": "skyscraper,{prompt},city center,modern architecture,bustling streets,glass facade,reflective surfaces,urban landscape,highrise buildings,dynamic skyline,vibrant city life,contemporary design,panoramic views,tree-lined avenues,architectural marvel,clear blue sky,environmental sustainability features,",
+    "negative_prompt": "NSFW,(worst quality:2),(low quality:2),(normal quality:2),lowres,blurry,signature,text,word,logo,cropped,out of frame,(two cats),skin spots,acnes,skin blemishes,age spot,(ugly:1.2),(duplicate:1.2),(morbid:1.21),(mutilated:1.2),(tranny:1.2),mutated hands,(poorly drawn hands:1.5),blurry,(bad anatomy:1.2),(bad proportions:1.3),extra limbs,(disfigured:1.2),(missing arms:1.2),(extra legs:1.2),(fused fingers:1.5),(too many fingers:1.5),(unclear eyes:1.2),lowers,bad hands,missing fingers,extra digit,bad hands,missing fingers,(extra arms and legs),"
+  },
+  {
+    "name": "商办风格2",
+    "prompt": "masterpiece,{prompt},best quality,8k,high detailed,ultra-detailed,architecture,a modern office building towering elegantly in the city center,beautiful clouds floating in the sky,amidst the hustle and bustle of urban life. Captured in natural sunlight with dynamic shadows,reflecting the steel blue,and concrete gray color scheme.architectural photography,this hyper-realistic digital art piece is a masterpiece of architectural visualization. Rendered in 3D with 8K resolution and high detail to showcase the beauty of modern architecture.",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:2),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "商办风格3",
+    "prompt": "a modern urban setting,{prompt},curved faade,Titanium Dioxide,A prominent building with a unique design stands out,perforated panel faade,and a few in vehicles. There are also trees and greenery,adding a touch of nature to the urban landscape,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "商业综合体",
+    "prompt": "high-rise commercial complex,{prompt},futuristic architecture,vibrant shopping district,skyscrapers with glass facades,bustling pedestrian plazas,rooftop gardens,eco-friendly building materials,solar panels,digital billboards,neon lights at night,reflection in water,people walking and shopping,clear blue sky,urban landscape,state-of-the-art technology,green spaces and parks,perfect lighting,ultra highres,original,extremely detailed,masterpiece:2,best quality",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "极简别墅",
+    "prompt": "modern villa architecture,{prompt},minimalist design,large glass windows,open-plan layout,natural light,eco-friendly materials,sustainable design,lush landscaping,outdoor swimming pool,contemporary furniture,smart home features,panoramic views,secluded location,luxury living,architectural masterpiece,(masterpiece:2),best quality,ultra highres,original,extremely detailed,perfect lighting",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "乡建改造1-LWXJ",
+    "prompt": "AD_township_construction_homestay,{prompt},xj,architectural rendering of a rural guesthouse,cozy and inviting,nestled in a picturesque countryside,surrounded by lush greenery and blooming flowers,rustic charm,panoramic windows for scenic views,soft morning light casting gentle shadows,tranquil and serene atmosphere,environmentally friendly design,natural materials,eco-friendly,sustainable living,detailed landscaping ,winding cobblestone pathways,fireplace for chilly evenings,(masterpiece:2),best quality,ultra highres,original,extremely detailed,perfect lighting,<lora:LWXJ-V0.2:0.8>",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "乡建改造2-AD_YSMS",
+    "prompt": "AD_township_construction_homestay,{prompt},ad_ysms,chinese architecture,pritzker architecture prize,\na hotel is located in deep mountain clouds and mist,integrated with the surrounding environment. The outline of the hotel is clear,with towering pavilions connected to the mountain,as if it were a landscape painting. On one side of the hotel,a small river meanders through,with flowing water murmuring and fresh and quiet. The riverbank is shaded by green trees,and colorful flowers bloom in the wind,conveying a lively atmosphere. The windows of the hotel are filled with warm lights,illuminating the surrounding environment The environment allows people to feel a sense of tranquility and comfort. The entire scene uses simple lines and heavy shadows to create a mysterious and elegant atmosphere,reflecting the minimalist style in the field of architectural design,<lora:AD_YSMSV1.0:0.8>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "乡建改造3-AD_YSMS",
+    "prompt": "AD_township_construction_homestay,{prompt},AD_YSMS,chinese architecture,a house sitting on top of a lush green hillside,cloisonnism,health spa and meditation center,the taoist temples of huangshan,taoist temples and monks,(8k, RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_YSMSV1.0:0.8>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "乡建改造4-lw_songfeng",
+    "prompt": "AD_township_construction_homestay,{prompt},songdaimeixue,a house with a waterfall in front of it,inspired by Emperor Huizong of Song,greenish-blue,style of the Song Dynasty,a wide open courtyard in an epic,black steel buildings,lean sleek styling,octane render,shallow depth of field,vignette,highly detailed,high budget,bokeh,cinemascope,moody,epic,gorgeous,film grain,grainy,(8k, RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:lw_songfengV1.0:1>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "乡建改造5-LWXJ",
+    "prompt": "AD_township_construction_homestay,{prompt},xj,A building,villa,Beautiful countryside,(modern:0.5),the village exudes tranquility and a deep connection to nature,stone,(extremely detailed CG unity 8k wallpaper),(masterpiece),(best quality),(ultra-detailed),(best illustration),(best shadow),<lora:LWXJ-V0.2:0.8>",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "乡建改造6-YNYS",
+    "prompt": "AD_township_construction_homestay,{prompt},zzDL,A building,villa,Beautiful countryside,country fields,(masterpiece),(best quality),(ultra-detailed),(best illustration),(best shadow),<lora:YNYS-lora:0.8>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "乡建改造7-jdxj",
+    "prompt": "AD_township_construction_homestay,{prompt},villa,folk house,a house with wihte wall and gray roof,best quality,<lora:jdxj_v1.0:0.55>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "乡建改造8-XM-LNYLV",
+    "prompt": "AD_township_construction_homestay,{prompt},jzcg006,scenery,outdoors,building,day,sky,tree,cloud,masterpiece,best quality,8k,ultra-high definition,<lora:XM-LNYLV2.0:0.7>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "乡建改造9-dzc",
+    "prompt": "AD_township_construction_homestay,{prompt},scenery,village,outdoors,building,day,sky,masterpiece,best quality,8k,ultra-high definition,in autumn,<lora:dc:0.8>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "乡建改造10-LW_YZ_station",
+    "prompt": "yz_station,{prompt},tea kiosk,white pillar,glass window,curve style,building,outdoors,tree,forest,day,water,nature,sky,reflection,river,(8k, RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:LW_YZ_station V1.0:0.9>,",
+    "negative_prompt": "EasyNegative,over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,worst quality,low quality,normal quality,lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "实体木模",
+    "prompt": "Handmade white mold,{prompt},nsanely detailed,buildings,architecture,interior light,landscape,art artarchitecture,<lora:Handmade white mold_v1.0:0.5>,(RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "别墅户外花园1-浅色木地板",
+    "prompt": "<lora:AD_yardV3.0:0.7>,{prompt},external photography,Exterior Courtyard,an elegantly designed garden terrace,contemporary style. The terrace is constructed with staggered levels of pale wooden decking,creating a spacious and inviting outdoor area. At the center stands a modern dining table with matching benches,including ornamental grasses and shrubs,This urban oasis juxtaposes the softness of the plant life against the clean lines of the terrace and furniture.light-toned courtyard wood decking,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "别墅户外花园2-浅色木地板",
+    "prompt": "<lora:AD_yardV3.0:0.7>,{prompt},designed by lao wang, epic-fine-clean, Exterior Courtyard, Overcast sky, an outdoor terrace in an urban setting. The terrace is laid with neatly arranged light-colored wooden planks, at the center of which sits a leisure furniture set that includes a long cushioned sofa and a low wooden table. The table is adorned with several lit candles, offering soft illumination for the evening. The edge of the terrace is decorated with stones and a woven basket. Surrounding the terrace are high walls and greenery, including trees and bushes, providing a natural atmosphere within the urban space. In the distance is the backdrop of the city's high-rise buildings. light-toned courtyard wood decking, Wooden planter box, external photography",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "别墅户外花园3-浅色地砖",
+    "prompt": "<lora:AD_yardV3.0:0.7>,{prompt},designed by lao wang,epic-fine-clean,Exterior Courtyard,Early morning,A contemporary courtyard within an urban setting,characterized by a minimalist design. A pathway of large,rectangular,light-colored paving stones is laid out in a staggered pattern,leading to a wooden privacy screen made of vertical slats. This screen contrasts with the grey exterior walls of the adjacent building and allows for a play of light and shadow. The courtyard is landscaped with an array of greenery,including raised beds with lush ferns,leafy shrubs,and tall,slender plants that bring a vertical element to the composition. The vegetation is dense and adds a rich texture to the space,which is balanced by the simplicity of the hardscaping. The overall palette is muted,with the natural wood and green plants providing warmth against the cool tones of the building and paving. Courtyard paving tiles,Wooden fence,external photography,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "别墅户外花园4-极简木凉亭",
+    "prompt": "<lora:AD_yardV3.0:0.7>,{prompt},Exterior Courtyard,an outdoor wooden deck area with a contemporary pergola structure overhead,featuring steps that lead up to a raised dining area equipped with a table and chairs,balancing sunlight and shadow,with various shrubs and a neatly trimmed hedge contributing to a secluded garden feel,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "别墅户外花园5-木栅栏",
+    "prompt": "<lora:AD_yardV3.0:0.7>,{prompt},designed by lao wang,epic-fine-clean,Exterior Courtyard,creating a simple and practical setup. Surrounding the lounge area is a wooden vertical slat wall,which not only ensures privacy but also harmonizes visually with the surrounding greenery. The entire space creates an environment suitable for relaxation and socializing,filled with a sense of modern yet natural design.light-toned courtyard wood decking,Wooden fence,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "别墅户外花园6-夜景，热带度假",
+    "prompt": "<lora:AD_yardV3.0:0.7>，Night,{prompt}, A tropical-style residential garden at night. The sky is a deep blue with a few visible stars, while the plants in the garden are illuminated by ground lights and exterior building lights, creating a warm and inviting atmosphere. Several tall palm trees rise into the night sky, serving as the central focal point of this nocturnal scene. The garden is designed with multiple-tiered terraces, each paved with wooden planks and adorned with various tropical plants and herbs. These plants, combined with the garden's lighting system, not only provide abundant greenery but also create dynamic light and shadow effects during the night. Courtyard paving tiles, external photography",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "别墅户外花园7-傍晚，浅色木地板",
+    "prompt": "<lora:AD_yardV3.0:0.7>,{prompt},Night,a warmly illuminated modern backyard on a night. a wooden deck is adorned with a sleek outdoor dining table and chairs,seamlessly connected to the interior through large sliding glass doors,offering a view of the cozy indoor living space. Above and around the deck,string lights are hung,creating a warm and inviting atmosphere. The yard features a paved stone pathway,flanked by various herbaceous plants and shrubs. Lanterns on the pathway and small lights among the plants add a radiant touch to the outdoor space while highlighting the contours of the vegetation.light-toned courtyard wood decking,Stepping Stones,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "别墅户外花园8-夜晚灯光，极简白墙",
+    "prompt": "<lora:AD_yardV3.0:0.7>,{prompt},Close-up of Courtyard Detail,Night,A white privacy wall adorned with a series of small light bulbs,creating a twinkling effect reminiscent of a clear night sky. This creative lighting adds ambiance and visual interest,making the wall a standout feature of the garden. On the deck,there's a single armchair with a matching small table and a lantern,signaling it as a cozy resting area. The chair's design is modern,with neutral-toned cushions that complement the overall monochromatic theme. The garden is further embellished with some small rectangular flower boxes placed along the edge of the deck,filled with low-lying plants seemingly accentuated by bottom lighting,adding depth to the scene. The outlines of trees and tall buildings are faintly visible,external photography,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "别墅内庭花园1-浅色木地板",
+    "prompt": "<lora:AD_yardV3.0:0.7>,{prompt},designed by lao wang,epic-fine-clean,Exterior Courtyard,Natural light,an urban Zen garden nestled within a modern architectural setting. The garden integrates a wooden decking area with built-in seating that creates a seamless indoor-outdoor transition. The decking steps down to a tranquil garden space with lush,layered plantings,including small trees,ferns,and ground cover that bring a touch of nature to the urban environment. A minimalist table centers the space for contemplation or relaxation. The backdrop is a concrete wall,softened by the vertical garden elements and the interplay of light and shadow,which adds depth and serenity to the space. The visible glass facade and the overhead structure suggest a connection to a contemporary building,offering a view into the peaceful garden oasis. light-toned courtyard wood decking,Courtyard paving tiles,external photography,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "别墅内庭花园2-带水景",
+    "prompt": "<lora:AD_yardV3.0:0.7>,{prompt},designed by lao wang,epic-fine-clean,Interior Courtyard,Natural light,a modern,harmoniously designed courtyard that beautifully integrates natural elements into the architectural layout. A wooden pathway with built-in lighting leads through the space,drawing the indoors out and inviting nature in,contemporary lines of the building,glass,Natural light from above filters through the open-air section of the roof,highlighting the textures and vibrant greens of the garden. The strategic placement of lighting along the wooden path and around the pond enhances the setting's ambiance,providing a warm,inviting glow that contrasts the coolness of the concrete. This space exemplifies the integration of water features,lighting,creating a peaceful enclave that is both aesthetically pleasing and functionally inviting,Courtyard paving tiles,external photography,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "大伟玻璃强化-黑色弧形线条建筑",
+    "prompt": "curved building,{prompt},office space,multi-storey.,horizontal lines,urban landscaping,Black metal cladding,glass facade,<lora:DW_galss_V1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.7),(low quality:1.7),(normal quality:1.7),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "大伟玻璃强化-横向银色弧形建筑",
+    "prompt": "office building,{prompt},curved design,twilight,(Transverse metal aluminum plate:1.1),Arc Angle,outdoor lighting,Glass strip window,urban landscape,entrance,dusk,reflective surfaces,multi-story,paved area,clear sky,commercial structure,illuminated windows,evening.,Natural light,<lora:DW_galss_V1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.7),(low quality:1.7),(normal quality:1.7),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "大伟玻璃强化-暖色墙面加灰色金属建筑",
+    "prompt": "Stone office building facade,{prompt}, building facade, Grey metal frame, evening, Beige stone walls, urban environment, stone cladding, street view, clear sky, indoor lighting visible, pedestrian, motion blur, entrance, glass doorway, public building, tree branches, front view perspective, architectural design, environmental integration, natural materials, Warm colored interior lighting,<lora:DW_galss_V1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.7),(low quality:1.7),(normal quality:1.7),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "大伟玻璃强化-暖色格栅建筑",
+    "prompt": "This is an office building entrance,{prompt}, large glass windows, pedestrian, Beige vertical grille, street view, evening light, urban environment, concrete, reflection, facade, trees, metal cladding, clear sky, symmetry, benches, public space, walking, horizontal lines, Vertical stone partitions,<lora:DW_galss_V1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.7),(low quality:1.7),(normal quality:1.7),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "大伟玻璃强化-白色透明玻璃建筑",
+    "prompt": "Big glass office building,{prompt}, glass facade, layered structure, cubic design, overcast sky, twilight, outdoor lighting, reflective surfaces, commercial building, minimalistic, clean lines, open space, urban environment, subdued color palette, flat roof, horizontal levels, transparency, dusk, contemporary,<lora:DW_galss_V1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.7),(low quality:1.7),(normal quality:1.7),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "大伟玻璃强化-黑色石材建筑",
+    "prompt": "This is a dark corner office building,{prompt}, A protruding glass box, dusk, Irregular strip opening window, glass facade, Black stone exterior wall, urban, twilight, asymmetrical, commercial property, dark cladding, illuminated windows, monolith, clear sky, street, parked cars, architectural lighting, vertical lines, reflective surface,<lora:DW_galss_V1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.7),(low quality:1.7),(normal quality:1.7),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "大伟玻璃强化-别墅建筑",
+    "prompt": "cantilevered structure,{prompt}, Modern villa on the prairie, large windows, dusk, exterior lighting, evening lighting, wood paneling, flat roof, clear sky, green lawn, horizontal lines, natural landscape, luxury home, glass facades, architectural photography, outdoor deck, Background tree, Warm colored interior lighting,<lora:DW_galss_V1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.7),(low quality:1.7),(normal quality:1.7),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "大伟玻璃强化-砖墙建筑",
+    "prompt": "It is a three-story red brick office building,{prompt}, glass connector, brick buildings, twilight, Grey brick walls, Large brick walls, exterior lighting, walkway, large windows, clear sky, dusk, urban, symmetrical composition, facade, concrete pavement, outdoor, entrance, visible interior lighting, architectural contrast, blue hour,<lora:DW_galss_V1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.7),(low quality:1.7),(normal quality:1.7),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,"
+  },
+  {
+    "name": "白色膜结构建筑",
+    "prompt": "<lora:XM-mjg:0.9>,{prompt},(high quality:1.4),xm-mjg,(white membrane structure:1.2),membrane structure epidermis,The image shows a large building with an unusual and striking exterior design. It is characterized by a facade composed of many hexagonal panels that are arranged in a honeycomb pattern. These panels appear to be made of a translucent or glass-like material,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:2),(low quality:2),(normal quality:2),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,EasyNegative,"
+  },
+  {
+    "name": "红色膜结构建筑",
+    "prompt": "<lora:XM-mjg:0.9>,{prompt},high quality:1.4,xm-mjg,(red membrane structure:1.4),membrane structure epidermis,The image shows a large building with an unusual and striking exterior design. It is characterized by a facade composed of many hexagonal panels that are arranged in a honeycomb pattern. These panels appear to be made of a translucent or glass-like material,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:2),(low quality:2),(normal quality:2),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-全景鸟瞰起手式-缺主体",
+    "prompt": "(Aerial view:1.1),{prompt},buildings,[[Archviz rendering]],[panorama],rich details,[architectural design],[The viewpoint is a high-angle aerial perspective],<lora:AD_NIAOKAN.V5.0:0.75>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-高空鸟瞰起手式-缺主体",
+    "prompt": "(bird's-eye view:1.1),{prompt},buildings,,rich details,set against an urban backdrop,<lora:AD_NIAOKAN.V5.0:0.85>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-低空鸟瞰起手式-缺主体",
+    "prompt": "(drone view:1.1),{prompt},environment,rich details,<lora:AD_NIAOKAN.V5.0:0.85>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-半鸟瞰起手式-缺主体",
+    "prompt": "(high-angle view:1.1),{prompt},building,amazing details,rich details,<lora:AD_NIAOKAN.V5.0:0.85>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-空中俯视起手式-缺主体",
+    "prompt": "(overhead view:1.1),{prompt},Architectural rendering of building,rich details,<lora:AD_NIAOKAN.V5.0:0.85>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-卫星视角起手式-缺主体",
+    "prompt": "(top-down view:1.1),{prompt},rich details,<lora:AD_NIAOKAN.V5.0:0.85>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-仰视角度起手式-缺主体",
+    "prompt": "skyward view of building,{prompt},<lora:AD_NIAOKAN.V5.0:0.85>,rich details,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-城市规划起手式",
+    "prompt": "Aerial digital rendering of an expansive urban area featuring a mix of residential,{prompt},urban planning,commercial,and industrial zones,grid-like street patterns,parks,bridges,a variety of buildings,and an adjacent rural landscape,<lora:AD_NIAOKAN.V5.0:0.75>,rich details,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-水边的未来建筑",
+    "prompt": "Aerial digital rendering of an expansive urban area featuring a mix of residential,{prompt},commercial,and industrial zones,grid-like street patterns,parks,bridges,a variety of buildings,and an adjacent rural landscape,<lora:AD_NIAOKAN.V5.0:0.85>,rich details,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-城市天际线",
+    "prompt": "Wide_shot of a modern urban skyline during twilight,{prompt},featuring a variety of contemporary office buildings with glass facades and illuminated windows. The environment is a densely built city center with architectural design elements like reflective surfaces and geometric shapes prominent in the skyscrapers,<lora:AD_NIAOKAN.V5.0:0.9>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-美式乡村",
+    "prompt": "Architectural concept art of an a central courtyard,{prompt},multiple brick buildings with colorful window frames,surrounded by grassy areas and sparsely distributed trees,with a sports field occupied by people and distant residential structures under a clear sky,<lora:AD_NIAOKAN.V5.0:0.9>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-河边黄昏半鸟",
+    "prompt": "3D rendering of a modern skyscraper complex viewed from a waterfront park at sunset,{prompt},featuring glass-fa?ade towers with reflective surfaces and a mix of residential and office buildings amid landscaped greenery with mature trees,<lora:AD_NIAOKAN.V5.0:0.9>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-冬日鸟瞰",
+    "prompt": "3D rendering of a modern residential complex in a snowy urban environment. The buildings showcase symmetrical facades with a combination of glazed and solid panels,{prompt},surrounded by bare deciduous trees and coniferous vegetation. The ground is covered with snow,and the scene depicts a winter daylight setting with surrounding low-rise urban fabric,<lora:AD_NIAOKAN.V5.0:0.9>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-生态商业街区半鸟瞰",
+    "prompt": "Concept art of a multi-level urban park with integrated commercial spaces. The environment features abundant greenery,{prompt},including cascading plants,trees,and grass areas,with people socializing and walking. Architectural elements include wooden cladding,concrete pillars,and suspended gardens. Sunlit,wide-shot perspective,<lora:AD_NIAOKAN.V5.0:0.9>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-体育馆鸟瞰",
+    "prompt": "Architectural rendering of a stadium with an exposed structural framework in a park-like setting featuring surrounding walkways,{prompt},green lawns,and scattered trees. The image presents a bird's eye perspective during daylight,showcasing the integration of the sports complex within a natural landscape. Visible design elements include the stadium's distinctive circular form,red running tracks,spectator seating,and translucent roof canopy,<lora:AD_NIAOKAN.V5.0:0.9>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-梯田半鸟瞰",
+    "prompt": "Digital concept art,{prompt},terraced farmlands with mountainous terrain in the background. The scene is characterized by vibrant green vegetation,winding paths,and undulating landforms under a partly cloudy sky,<lora:AD_NIAOKAN.V5.0:0.9>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-城市公园卫星图",
+    "prompt": "top-down view of an urban park surrounded by streets and adjacent to two distinct architectural styles,{prompt},The park features winding pathways,diverse tree species,manicured lawns,a water feature,circular plazas,and seating areas,<lora:AD_NIAOKAN.V5.0:0.9>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-产业园区卫星图",
+    "prompt": "top-down view of a contemporary office building complex with distinct zigzag green rooftops,{prompt},surrounded by urban infrastructure,including intersecting roadways and smaller adjacent buildings. The complex features a symmetrical layout with a centralized garden space,emphasizing a modern architectural style with glass facades and geometric design elements,<lora:AD_NIAOKAN.V5.0:0.9>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-乡村鸟瞰卫星图",
+    "prompt": "top-down view of a rural village at dusk with one central building illuminated by lights. The surrounding houses feature dark pitched roofs,{prompt}, contrasting with the winding unpaved paths and sparse vegetation. The scene captures a quiet evening atmosphere without distinct architectural style detailing,<lora:AD_NIAOKAN.V5.0:0.9>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-乡村鸟瞰卫星图2",
+    "prompt": "top-down view of a mixed-use complex nestled in a mountainous terrain,{prompt},featuring traditional rectangular roofed structures alongside contemporary curved architecture,surrounded by terraced agricultural fields,<lora:AD_NIAOKAN.V5.0:0.9>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "鸟瞰LORA强化-鸟瞰示例-中式院落卫星图",
+    "prompt": "top-down view of a Chinese-style courtyard garden featuring a central ornamental pond with lily pads,{prompt},surrounded by symmetrical pavilions with grey tile gabled roofs,white walls,and flanked by trimmed hedges and rectangular patches of manicured lawns,<lora:AD_NIAOKAN.V5.0:0.8>,",
+    "negative_prompt": "(watermark:1.1),EasyNegative,"
+  },
+  {
+    "name": "一一一一一下方为景观专业一一一一一一",
+    "prompt": ",{prompt}",
+    "negative_prompt": NaN
+  },
+  {
+    "name": "新中式建筑改造1-日景-渲染-砖石路-整形绿篱+樱花",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a traditional East Asian style residence with white walls and dark tiled roofs, featuring a landscaped courtyard. Mature trees and a blooming pink cherry blossom tree enhance the serene atmosphere. The buildings' architecture includes multi-tiered, sweeping rooflines and decorative ridge tiles. Two figures appear to be walking on the gray stone pavement, framed by neatly manicured green shrubbery and decorative rock arrangements. Mountaintops are visible in the background, suggesting a rural or suburban setting.",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式建筑改造2-日景-渲染-砖石路-整形绿篱",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a traditional East Asian style residence with white walls and dark tiled roofs, featuring a landscaped courtyard. Mature trees and a blooming pink cherry blossom tree enhance the serene atmosphere. The buildings' architecture includes multi-tiered, sweeping rooflines and decorative ridge tiles. Two figures appear to be walking on the gray stone pavement, framed by neatly manicured green shrubbery and decorative rock arrangements. Mountaintops are visible in the background, suggesting a rural or suburban setting.",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式建筑改造3-黄昏-渲染-常路-整形绿篱",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a traditional Chinese architectural style residential building at dusk. The two-story structure features white walls,dark tiled gable and hip roofs,decorative ridge tiles,and wooden latticed windows illuminated from within. Lush landscaping with manicured bonsai trees and shrubs lines the building's perimeter,enhancing the serene environment against a backdrop of silhouetted trees. A family of three is observed on the sidewalk,giving the scene a human element.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式建筑改造4-黄昏-照片-汀步-草坪+绿篱",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photograph of a traditional East Asian-style house set in a serene garden. The two-story structure features a sweeping tiled roof with upturned eaves,complemented by dark wooden brackets and balustrades. Nestled amidst a well-manicured lawn,the path to the house is paved with rectangular stepping stones bordered by shrubs and leafless trees,indicating a dormant season. Warm light emanates from the interior,visible through large windows and sliding doors,enhancing the inviting ambiance of the residence at twilight.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式建筑改造5-黄昏-照片-汀步-自然花+油菜花",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photograph of a traditional East Asian-style residence with a tiled roof and white walls,nestled in a vibrant garden. The foreground is adorned with beds of white and yellow flowers,while in the background,a gentle mountain slope is visible. The house features an open-air wooden deck,enclosed by a low fence,overlooking the colorful garden.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式建筑改造6-雨景-渲染-砖石路-整形绿篱",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic rendering of a person walking with an umbrella in a traditional Chinese courtyard during rain. The courtyard features symmetrical white buildings with grey tiled roofs,ornate window grilles,and lanterns lining a wet stone pavement. Verdant bushes and a mature tree with dense foliage enhance the tranquility of the scene.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式建筑改造7-雪景-渲染-砖石路-整形绿篱",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic rendering of a traditional East Asian-style courtyard during winter. The snow-covered scene includes tiled-roof buildings with white walls, wooden doors, and latticed windows. Neatly pruned bushes and deciduous trees, adorned with fresh snow, line a pathway of gray stone tiles leading through the tranquil gardens.",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式建筑改造8-雪景-照片-无植物",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic image of a traditional East Asian architectural complex during winter,featuring tiled roofs with upturned eaves amidst a snowy landscape. The compound is surrounded by white walls and set against a backdrop of a forested hill,with snowflakes visibly falling from the grey sky.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式建筑改造9-小鸟瞰黄昏-照片-灯光-砖墙-山中",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photograph of a modern architectural complex with traditional East Asian design influences situated in a hilly landscape with lush vegetation. The buildings feature dark tiled gable roofs,light walls,and are arranged in a tiered pattern,harmonizing with the surrounding greenery and stone retaining walls. A pagoda-like structure crowns the hilltop in the background under a dusk sky.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式建筑改造10-小鸟瞰日景-渲染-绿带-水池",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Aerial view of a traditional residential complex with grey tiled roofs and white walls,structured around a central courtyard with a landscaped garden featuring a variety of trees and a rectangular pond. Surrounding pavements appear in light stone tiles,and two figures are present near the garden.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式商业街1-日景-渲染-人群-商铺-水面",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Rendered image of a pedestrian street with traditional East Asian architectural elements. The setting features a clear sky and tall trees,suggesting a warm and pleasant weather. People are casually strolling and sitting at outdoor tables,indicating a relaxed,social environment. The architecture incorporates grey tiled roofs,wooden structures,and multiple retail signs that blend modern brands with classic designs. A calm water feature with lily pads adds tranquility to the scene.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式商业街2-日景-渲染-人群-商铺-花灌木+花篮",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a pedestrian shopping street lined with two-story wooden-framed buildings under a clear sky. The architecture features dark timber beams,white plaster facades,and gray tiled roofs with ornate ridge details. Shoppers stroll along the plaza,with some carrying bags,while others browse outdoor displays. Flanking the walkway are vibrant pink flowering shrubs and hanging planter baskets.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式商业街3-夜景-渲染-人群-白墙灰瓦-砖路",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic rendering of an East Asian historic street at dusk,featuring traditional architecture with tiled roofs,white walls,and wooden lattice windows. Lanterns illuminate the facades while pedestrians,some taking photos,walk along the stone-paved road lined with trees and shops displaying various goods.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式商业街4-日景-渲染-人群-砖路-水-桥",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a vibrant town square where traditional East Asian architectural elements meet modern design. This bustling public space is lined with both contemporary storefronts and classic structures,featuring a pedestrian promenade with stone pavement,interspersed greenery,and wooden benches. A traditional kiosk and decorative stone bridge span a calm water canal,enhancing the cultural ambiance,while diverse groups of people engage in various leisure activities under clear skies.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式商业街5-逆光小鸟看-渲染-山墙顶",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Aerial view of an East Asian-style cultural district with traditional gabled roofs and modern buildings against a backdrop of warm-toned deciduous and green evergreen trees. The scene captures a bustling pedestrian street flanked by tiled roofs,with a large contemporary structure featuring glass facades to the right. A hazy atmosphere suggests early morning or evening in a serene,urban setting.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "新中式亭廊-夜景-照片-灯光-假山-水面",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Panoramic photograph of a traditional Chinese garden at dusk,featuring pavilions with upturned eaves reflected in a calm pond. Stone pathways and rockeries border the water,while mature trees and manicured shrubs accentuate the tranquility of the setting. Lanterns gently illuminate the scene,enhancing the serene atmosphere.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村道路绿化改造1-日景-渲染-建筑街道-组团绿化+樱花",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic rendering of a landscape . The serene environment showcases flowering cherry trees with pink blossoms,a paved path,and traditional white buildings with dark roof tiles.,capturing the scenery,suggesting a leisurely atmosphere within an urban green space. A carved wooden signpost and flowering shrubbery enhance the tranquil setting.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村道路绿化改造2-日景-渲染-沥青路-街道内-组团绿化+樱花",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a tree-lined street within a residential area,featuring people,vibrant cherry blossoms,and traditional white-walled homes with dark-grey roofs. A clear sky and diverse foliage suggest a spring day. Two pedestrians are walking along the smoothly paved road,bordered by stone walls and lush greenery.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村道路绿化改造3-日景-渲染-入口转角-沥青路面-灌木组团",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a landscaped entrance driveway leading to a modern facility. The road is delineated with yellow lines and bordered by decorative shrubs,sculpted trees,and flowering plants.,beneath a clear sky with scattered birds in the distance.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村道路绿化改造4-日景-渲染-沥青路-村外大路-灌木组团-车辆",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a landscaped urban road with a variety of trees and flowering plants. The scene includes a paved road ,lamp posts lining the streets,and a car in motion. The vegetation transitions from a foreground of textured grass with flower beds to a background of dense greenery,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村道路绿化改造5-日景-渲染-砖石-米色建筑街道-花组团-人群",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic rendering of a landscaped walkway lined with flowering plants,including red roses and lavender,adjacent to a building with a beige facade. The pathway is paved with cobblestone and edged with stone retaining walls. People are depicted in casual stroll alongside the vibrant vegetation.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村道路绿化改造6-日景-渲染-国道-列植-车辆",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital artwork of a winding road flanked by colorful trees and flowers,with a car driving along it,amidst a semi-rural landscape.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村道路绿化改造7-日景-渲染-中式建筑街道-大量组团",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic rendering of a landscaped pedestrian pathway in a residential area,green shrubs,and an array of garden plants,within this tranquil outdoor setting framed by multi-story houses with tiled roofs and electrical poles lining the street.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村道路绿化改造8-日景-渲染-公园自行车道",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital illustration of a park with a vibrant bicycle lane marked by white bicycle icons and a pedestrian path. Various people are engaged in outdoor activities,such as walking,cycling,and socializing in a leisurely environment adorned with blooming pink cherry trees,greenery,and well-manicured lawns. Wayfinding signage and modern park benches punctuate the space,fostering a community-friendly atmosphere.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村道路绿化改造9-日景-渲染-国道-列植-无人无车",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},asphalt road,that runs through a park. The road is lined with trees on both sides,Digital rendering of a multi-use urban path with separate lanes for cyclists and pedestrians,The image features a long,straight,providing a scenic and natural atmosphere. The trees are of various sizes and are spaced evenly along the road,creating a visually appealing and serene environment. The road appears to be empty,with no visible traffic or pedestrians.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村滨水1-日景-渲染-木桥-人-樱花-shu'qun",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic rendering of a tranquil garden scene with a clear pond,surrounded by lush vegetation and cherry blossoms. A wooden bridge to the left connects to a paved pathway,where a figure stands observing the water. Background buildings with tiled roofs contribute to a serene suburban environment.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村滨水2-日景-渲染-中式民宿-石基-雾山",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Rendered image of a modern interpretation of traditional East Asian architecture,set against a tranquil,reflective lakeside environment with a backdrop of mist-enshrouded hills. The buildings feature stone bases,prominent wood framing,and tiled gable roofs. The scene is characterized by the calm water mirroring the structures and the soft greenery along the shore.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村滨水3-日景-渲染-中式村庄-水生植物",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic rendering of a traditional Eastern waterside village. ,flanked by lush grasses and white herons in various stages of flight. On the riverbanks,vibrant yellow and purple flowers bloom beneath a mix of deciduous trees. White-walled residences with dark-tiled roofs line the far bank,punctuated by an ornate gazebo. Wisps of mist over the calm water add to the serene atmosphere.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村滨水4-日景-渲染-亲水栈道-水生植物",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic rendering of a tranquil park scene with visitors meandering along a wooden walkway amidst lush greenery,a serene waterway,and distant cityscape against a backdrop of clear,sunlit sky.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村滨水5-日景-渲染-建筑-木桥-人-山-水生植物",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic digital rendering of an East Asian village scene with traditional architecture featuring tiled roofs,a wooden footbridge over a stream,and lush vegetation. Several people are walking along the bridge and pathways,enjoying the serene environment.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村滨水6-日景-渲染-木桥-人-水生植物",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital illustration of people enjoying a serene park landscape with a calm water body surrounded by lush greenery. The scene depicts wooden walking platforms and benches extending over the water,complemented by verdant trees and ornamental grasses,with birds in flight and pedestrians interacting peacefully within the natural environment.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村滨水9-蓝调-渲染-现代建筑-山墙顶-街道",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a peaceful,communal outdoor scene in an evening setting. The environment includes a calm body of water surrounded by wooden boardwalks,adorned with floating lotus-shaped lanterns. People engage in various recreational activities,set against a backdrop of modern gabled buildings with white facades and dark roofs. An abundance of green foliage enhances the serene ambiance.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村滨水8-蓝调-渲染-现代建筑-山墙顶-建筑立面",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Rendered image of a series of modern residences with traditional design elements situated along a calm riverbank. The buildings feature a mix of sloped and flat roofs,large windows,and contrasting white walls with dark roof materials. Stone pathways and low fences complement the landscaping,while floating lanterns,add life to the tranquil twilight scene.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村滨水7-蓝调-渲染-现代建筑-山墙顶-大玻璃",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a modern architectural complex at twilight,featuring waterfront buildings with large glass facades and gabled roofs. The scene includes illuminated interiors,outdoor lighting,set against a dark blue sky.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村滨水10-夜景灯光-渲染-古城夜街-桥",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital illustration of a traditional East Asian water town at dusk,with illuminated stone and wood buildings flanking a calm canal. The scene includes wooden boats moored along the banks,stone bridges crossing over the water,and visitors walking on paved paths and interacting beside shops. The reflection of the lit structures and a hazy sky suggests a serene evening atmosphere.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村驿站1-照片-白墙-竹构山墙顶",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photograph of a modern building with traditional design elements,functioning as a station,set in a rural roadside environment. The structure features a minimalist white facade with a red brickwork section and a prominent wooden roof overhang. Bamboo fencing,flowering shrubs,and a mature tree complement the station's exterior,while pedestrians engage casually near the premises.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村驿站2-照片-夜景灯光-木-玻璃-前景草",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Twilight photo of modern buildings with illuminated interiors amidst a natural landscape. The foremost structure features a linear design with an exposed wooden framework and columned facade,while a multi-tiered building stands in the background,accentuated by glowing windows. Surrounding vegetation and a clear sky complete the tranquil setting.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村驿站3-渲染-石路-茅草亭",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a community  with visitors on a clear day. The setting includes a thatched-roof pavilion,and children playing. Paved paths and flowering plants enhance the tranquil ambiance,as a cobblestone walkway leads through the space,accompanied by green trees and a blue sky overhead.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村田野-纯色-照片-樱花+油菜花",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photograph of cherry blossom trees in full bloom adjacent to a field of bright yellow rapeseed flowers,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村田野-渲染-竹林幽径",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Realistic digital artwork of a stone path winding through a lush bamboo forest with dappled sunlight filtering through the canopy. The forest is dense with mature bamboo stalks on one side and a mixed understory of flowering shrubs on the other,suggesting a tranquil,naturalistic setting. A solitary figure walks down the path,adding a sense of scale and human presence to the scene.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村田野-渲染-林中栈道",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic rendering of a pedestrian bridge surrounded by lush trees. In the foreground,on the bridge,a child holding hands with an adult suggests a familial bond,while another individual leans against the railing,focused on an object in hand. The bridge,marked by a smooth,light-colored walking surface and modern metal railings,cuts through the verdant landscape,with the dense foliage indicating a serene and possibly secluded environment.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村田野-照片-鸟瞰-田水村山",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Aerial view of terraced agricultural land showcasing a patterned layout of crops with intervening walkways. The scene includes decorative sculptures,a water body with a fountain,and a traditional multi-tiered pavilion overlooking the fields. Surrounding the farmland are modern residential structures amid lush greenery,with a backdrop of rolling hills partially shrouded in mist.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村田野-渲染-向日葵-观鸟塔-人群",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Photorealistic illustration of a multi-story wooden observation tower located amidst a sunflower field. Visitors interact with the blooms and some take photographs,while the background features greenhouses and a mountainous landscape. Shadows suggest sunlight coming from behind the camera's perspective.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村田野-照片-鸟瞰-田水村山2",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Aerial view of a rural village surrounded by dense green foliage. The landscape features a mixture of traditional gabled-roof houses and modern structures,integrated within plots of varied agriculture and bisected by a winding river and pathways. A misty ambiance suggests an early morning setting.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村湿地1-逆光-渲染-木栈道-水草",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a tranquil forest scene with a wooden boardwalk meandering alongside a serene pond,flanked by lush trees,and underbrush. The sun sets in the distance,casting a warm glow.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村湿地2-日光-渲染-栈桥-水草",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital render of a serene park landscape featuring a calm lake with waterfowl,a red footbridge surrounded by flowering plants,diverse tree species,and a distant mountainous backdrop under a soft-hued sky.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村湿地3-日光-渲染-鸟瞰-水面",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Aerial rendering of a landscaped park with a winding pathway along a lake,surrounded by diverse vegetation and trees,highlighted by a glowing sun near the horizon.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "乡村湿地4-暮色-照片-木栈道-水草",
+    "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Twilight photo of a serpentine wooden walkway in a lush,grassy wetland setting,. The composition is framed by bare trees against a dusky blue sky.,",
+    "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
+  },
+  {
+    "name": "一一一一一下方为室内专业一一一一一一",
+    "prompt": ",{prompt}",
+    "negative_prompt": NaN
+  },
+  {
+    "name": "室内-中古法式风起手式",
+    "prompt": "(RAW photo,{prompt}, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_Retro_FrenchV1.0:0.8>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.5),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "室内-中古法式风-餐馆空间示例",
+    "prompt": "restaurant,{prompt},colorful mashup,rich colors,patterns,lines,retro sense,artistic sense,(RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_Retro_FrenchV1.0:0.8>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.5),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "室内-美式复古风起手式",
+    "prompt": "ad_midcent,{prompt},interior design,(RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_midcentV1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.5),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "室内-美式复古风-客厅空间示例",
+    "prompt": "a living room with a couch,{prompt},floor - to - ceiling windows,floor lamps,tablead_midcent,interior design,(RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_midcentV1.0:0.8>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.5),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "室内-中华田园欧式起手式",
+    "prompt": "AD_xdos,{prompt},Modern European interior,(RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_xdosV1.0:1>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.5),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "室内-中华田园欧式-客厅空间示例",
+    "prompt": "a luxurious and spacious living room with a large chandelier hanging from the ceiling,{prompt},The room is filled with various furniture pieces,including a couch,a chair,and a dining table,AD_xdos,Modern European interior,(RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_xdosV1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.5),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "室内-开放办公区起手式",
+    "prompt": "AD_open_office,{prompt},office,interior design,(RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_open_officeV1.0:1>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.5),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "室内-开放办公区-有人走过的现代风办公室示例",
+    "prompt": "a woman is walking through an office cubicle,{prompt},modular constructivism, bright it interiors, in a open-space working space, modern office,AD_open_office,office,interior design,(RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_open_officeV1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.5),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "室内-前台接待区起手式",
+    "prompt": "AD_Reception_area,{prompt},interior design,(RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_Reception_areaV1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.5),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "室内-前台接待区-办公大楼前台示例",
+    "prompt": "the front desk of a modern office building,{prompt},kinetic art,pritzker architecture prize,bright it interiors,AD_Reception_area,interior design,(RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_Reception_areaV1.0:0.8>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.5),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "室内-独立办公室起手式",
+    "prompt": "AD_singleoffice,{prompt},interior design,(RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_singleofficeV1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.5),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "室内-独立办公室-土豪风办公室示例",
+    "prompt": "1 luxurious chairman's office,{prompt},AD_singleoffice,interior design,(RAW photo, best quality, masterpiece:1.2),(realistic, photo-realistic:1.3),<lora:AD_singleofficeV1.0:0.9>,",
+    "negative_prompt": "over sharpening,dirt,bad color matching,graying,wrong perspective,distorted person,Twisted Car,NSFW,(worst quality:1.5),(low quality:1.5),(normal quality:1),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,text,word,logo,cropped,out of frame,vehicle,EasyNegative,NSFW,(worst quality, low quality:1.1),"
+  },
+  {
+    "name": "室内-极简三风-诧寂起手式",
+    "prompt": "High quality,{prompt},colorful mashup,rich colors,patterns,lines,retro sense,artistic sense,design sense,atmospheric sense,<lora:UIA_Interior_3in1_styles:0.6>,",
+    "negative_prompt": "blurry,low quality,bad anatomy,sketches,lowres,normal quality,worstquality,signature,watermark,cropped,bad proportions,out of focus,(worst quality, low quality:1.4),monochrome,zombie,(interlocked fingers),(worst quality, low quality:2),monochrome,zombie,overexposure,watermark,text,bad anatomy,bad hand,extra hands,extra fingers,(extra digit and hands and fingers and legs and arms:1.4),(deformed fingers:1.2),(long fingers:1.2),(bad-artist-anime),extra legs,lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,"
+  },
+  {
+    "name": "室内-极简三风-诧寂风-客厅示例",
+    "prompt": "High quality,{prompt},living room,colorful mashup,rich colors,patterns,lines,retro sense,artistic sense,design sense,atmospheric sense,<lora:UIA_Interior_3in1_styles:0.6>,",
+    "negative_prompt": "blurry,low quality,bad anatomy,sketches,lowres,normal quality,worstquality,signature,watermark,cropped,bad proportions,out of focus,(worst quality, low quality:1.4),monochrome,zombie,(interlocked fingers),(worst quality, low quality:2),monochrome,zombie,overexposure,watermark,text,bad anatomy,bad hand,extra hands,extra fingers,(extra digit and hands and fingers and legs and arms:1.4),(deformed fingers:1.2),(long fingers:1.2),(bad-artist-anime),extra legs,lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,"
+  },
+  {
+    "name": "室内-极简三风-黑白灰起手式",
+    "prompt": "<lora:UIA_Interior_3in1_styles:0.65>,{prompt},Very exquisite, best quality, masterpiece, high resolution, 3dmax, photogenic, (ldark tonelightingy), interior design architecture, glossy panels, elegant interior architecture abstract photo, residential design, beautiful rendering in black and white tones, dark tones of lighting,",
+    "negative_prompt": "NSFW,text,(worst quality:2),(low quality:2),(normal quality:2),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,word,logo,cropped,out of frame,nsfw,"
+  },
+  {
+    "name": "室内-极简三风-黑白风-客厅示例",
+    "prompt": "Very detailed,{prompt}, best quality, Masterpiece, High resolution, 3dmax, photo grade, sofa, table, chair, carpet, an architectural painting hanging on the wall, a table, ((dark tone lighting)), bamboo curtains, depth of field, Interior Design Architecture, smooth panels, elegant interior, architectural abstract photos, residential design, beautiful rendering in black and white tones, dull toned light,<lora:UIA_Interior_3in1_styles:0.6>,",
+    "negative_prompt": "NSFW,text,(worst quality:2),(low quality:2),(normal quality:2),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,word,logo,cropped,out of frame,nsfw,"
+  },
+  {
+    "name": "室内-极简三风-唐风起手式",
+    "prompt": "<lora:UIA_Interior_3in1_styles:0.7>,{prompt},((Dark Tone Lighting))), Depth of Field, Interior Design Architecture, Smooth Panels, Houzz, Elegant Interiors, Architectural Abstract Photographs, Residential Design, Beautiful Renderings of the Tang Dynasty, Dim Toner Lamps, Dark Maroon, Extremely Detailed, Best Quality, Masterpiece, High Resolution, Realistic,",
+    "negative_prompt": "NSFW,text,(worst quality:2),(low quality:2),(normal quality:2),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,word,logo,cropped,out of frame,nsfw,"
+  },
+  {
+    "name": "室内-极简三风-唐风-客厅示例",
+    "prompt": "<lora:UIA_Interior_3in1_styles:0.7>,{prompt},,living room,((Dark Tone Lighting))), Depth of Field, Interior Design Architecture, Smooth Panels, Houzz, Elegant Interiors, Architectural Abstract Photographs, Residential Design, Beautiful Renderings of the Tang Dynasty, Dim Toner Lamps, Dark Maroon, Extremely Detailed, Best Quality, Masterpiece, High Resolution, Realistic,",
+    "negative_prompt": "NSFW,text,(worst quality:2),(low quality:2),(normal quality:2),lowres,(monochrome),(grayscale),blurry,signature,drawing,sketch,word,logo,cropped,out of frame,nsfw,"
+  }
+]
