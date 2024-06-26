@@ -405,11 +405,6 @@
     "negative_prompt": "(watermark:1.1),EasyNegative,"
   },
   {
-    "name": "一一一一一下方为景观专业一一一一一一",
-    "prompt": ",{prompt}",
-    "negative_prompt": NaN
-  },
-  {
     "name": "新中式建筑改造1-日景-渲染-砖石路-整形绿篱+樱花",
     "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Digital rendering of a traditional East Asian style residence with white walls and dark tiled roofs, featuring a landscaped courtyard. Mature trees and a blooming pink cherry blossom tree enhance the serene atmosphere. The buildings' architecture includes multi-tiered, sweeping rooflines and decorative ridge tiles. Two figures appear to be walking on the gray stone pavement, framed by neatly manicured green shrubbery and decorative rock arrangements. Mountaintops are visible in the background, suggesting a rural or suburban setting.",
     "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
@@ -648,11 +643,6 @@
     "name": "乡村湿地4-暮色-照片-木栈道-水草",
     "prompt": "<lora:中华田园风乡建改造:1>,{prompt},Twilight photo of a serpentine wooden walkway in a lush,grassy wetland setting,. The composition is framed by bare trees against a dusky blue sky.,",
     "negative_prompt": "EasyNegative,NSFW,worst quality,low quality,normal quality,lowres,"
-  },
-  {
-    "name": "一一一一一下方为室内专业一一一一一一",
-    "prompt": ",{prompt}",
-    "negative_prompt": NaN
   },
   {
     "name": "室内-中古法式风起手式",
