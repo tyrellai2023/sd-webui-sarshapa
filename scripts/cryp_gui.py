@@ -291,6 +291,8 @@ if __name__ != "__main__":
         time_data = time.time()*1000
         username_value, password_value, msg ,html = show_old_login()
         install_msg ,install_result = show_install_result()
+
+        install_cn_msg ,install_cn_result = show_install_cn_result()
         with gr.Blocks() as cryp:
 
             with gr.TabItem("登录", id="login"):
@@ -314,7 +316,7 @@ if __name__ != "__main__":
                             gr.HTML('<button class="lg secondary gradio-button svelte-cmf5ev" style="color:#808080;width:100%" id="component-341455"> 安装解密模块</button>')
                             uninstall_btn = gr.Button("卸载解密模块")
                         operation_output = gr.Textbox(
-                            label=f"解密模块状态     {time_data}",max_lines=1, value=install_msg, visible=True,id=f"login_result_{time_data}",elem_classes="result_input2"
+                            label=f"解密模块状态     {time_data}",max_lines=1, value=install_msg, visible=True,id=f"install_result_{time_data}",elem_classes="result_input2"
                         )
                         if install_result==0:
                             install_btn.click(fn=install_encryption_module, outputs=operation_output)
@@ -322,6 +324,23 @@ if __name__ != "__main__":
                             uninstall_btn.click(
                                 fn=uninstall_encryption_module, outputs=operation_output
                             )
+
+                        #     gr.Markdown("CN模块安装", elem_classes="install_cn_title")
+                        # if install_cn_result==0:
+                        #     install_cn_btn = gr.Button("安装CN解密模块")
+                        #     gr.HTML('<button class="lg secondary gradio-button svelte-cmf5ev" style="color:#808080;width:100%" id="component-341466"> 卸载CN解密模块</button>')
+                        # else:
+                        #     gr.HTML('<button class="lg secondary gradio-button svelte-cmf5ev" style="color:#808080;width:100%" id="component-341455"> 安装CN解密模块</button>')
+                        #     uninstall_cn_btn = gr.Button("卸载CN解密模块")
+                        # operation_cn_output = gr.Textbox(
+                        #     label=f"CN解密模块状态     {time_data}",max_lines=1, value=install_cn_msg, visible=True,id=f"install_cn_result_{time_data}",elem_classes="result_input2"
+                        # )
+                        # if install_cn_result==0:
+                        #     install_cn_btn.click(fn=install_cn_encryption_module, outputs=operation_cn_output)
+                        # else:
+                        #     uninstall_cn_btn.click(
+                        #         fn=uninstall_cn_encryption_module, outputs=operation_cn_output
+                        #     )
                         reg_qrcode = f"""
 <!DOCTYPE html>
 <html>
